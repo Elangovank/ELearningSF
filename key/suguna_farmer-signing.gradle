@@ -1,0 +1,14 @@
+android {
+    signingConfigs {
+        debug{
+
+        }
+        release {
+            storeFile file("./gmkeystore.jks")
+            keyAlias "gmsales"
+            keyPassword "gmsales"
+            storePassword "gmsales"
+
+        }
+    }
+}

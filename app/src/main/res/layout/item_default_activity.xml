@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/default_activity_layout"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/radioRecyclerView"
+        android:orientation="vertical"
+        style="@style/Base_Match_Wrap"
+       />
+
+    <LinearLayout
+        android:id="@+id/rangeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            style="@style/Base_Match_Wrap"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/decrementImageView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/quantityEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textSize="@dimen/font_size_small"
+                tools:text="12" />
+
+            <ImageView
+                android:id="@+id/incrementImageView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_increament" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.gmcoreui.controllers.ui.GMTextInputLayout
+        android:id="@+id/commentGMTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:textColorHint="@color/text_gray">
+
+        <EditText
+            android:id="@+id/commentEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/worksans_regular"
+            android:inputType="textMultiLine"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_size_small" />
+
+    </com.gmcoreui.controllers.ui.GMTextInputLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/arrivedLayout"
+    android:visibility="gone"
+    tools:visibility="visible"
+    android:orientation="vertical">
+
+    <include layout="@layout/appbar_normal" />
+
+    <RelativeLayout
+
+        android:id="@+id/dateLayout"
+        style="@style/Base_Match_Wrap"
+
+        android:background="@color/white_shade_2">
+
+        <TextView
+            android:id="@+id/completedDate"
+            style="@style/Base_Wrap"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:drawableStart="@drawable/ic_calendargreen"
+            android:drawablePadding="@dimen/margin_medium"
+            android:textColor="@color/date_color"
+            android:textSize="@dimen/font_size_small"
+            tools:text="2 Apr,2020" />
+
+        <TextView
+            android:id="@+id/completedTextView"
+            style="@style/Base_Wrap"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/margin_large"
+            android:fontFamily="@font/worksans_medium"
+            android:textColor="@color/redShade"
+            android:textSize="@dimen/font_size_very_small" />
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dispatchStatusRecyclerView"
+        style="@style/Base_Match_Wrap"
+        android:background="@color/white_shade_1" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+
+        android:orientation="vertical">
+
+        <com.gmcoreui.controllers.ui.GMTextInputLayout
+            android:id="@+id/reasonGMTextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:textColorHint="@color/text_gray">
+
+            <EditText
+                android:id="@+id/reasonEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/worksans_regular"
+                android:inputType="textMultiLine"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_size_small" />
+
+        </com.gmcoreui.controllers.ui.GMTextInputLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

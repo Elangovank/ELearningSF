@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_medium"
+    android:id="@+id/chartAdapterLayout"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F0F0"
+        android:paddingStart="@dimen/padding_medium"
+        android:paddingEnd="@dimen/padding_medium">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/expandImageView"
+            android:fontFamily="@font/worksans_bold"
+            android:textSize="@dimen/font_size_medium"
+            tools:text="Title" />
+
+        <ImageView
+            android:id="@+id/expandImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/padding_medium"
+            android:src="@drawable/ic_expand"
+            tools:ignore="ContentDescription" />
+
+
+    </RelativeLayout>
+
+    <!--Chart View-->
+
+
+    <LinearLayout
+        android:id="@+id/chartLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/fullViewLayout"
+            style="@style/Base_Match_Wrap"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="@dimen/margin_large"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/Base_Wrap"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/ic_fullscren" />
+
+            <TextView
+                android:id="@+id/viewFullChartTextView"
+                style="@style/Base_Wrap"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/margin_large"
+                android:fontFamily="@font/worksans_medium"
+                android:gravity="center"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/font_size_small" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/leftSideView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_weight="0"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <com.gm.utilities.VerticalTextView
+                    android:id="@+id/leftLableNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:rotation="-180"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Mortality"
+                    android:textAllCaps="true"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/leftScroll"
+                    style="@style/Base_Wrap"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="@dimen/margin_2x_large"
+                    android:padding="@dimen/margin_small"
+                    android:src="@drawable/scroll_previous"
+                    android:visibility="invisible"
+
+                    />
+            </LinearLayout>
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lineChart"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="@dimen/margin_upper_medium"
+                android:layout_marginBottom="@dimen/margin_medium"
+                android:layout_toLeftOf="@+id/rightSideView"
+                android:layout_toRightOf="@+id/leftSideView" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lineChart"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ageInDaysTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:id="@+id/chartLabelLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/chartTypeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/rightSideView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-1dp"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/margin_medium"
+                android:layout_weight="0"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <com.gm.utilities.VerticalTextView
+                    android:id="@+id/rightLableNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:rotation="-180"
+                    android:text="Mortality"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/rightScroll"
+                    style="@style/Base_Wrap"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="@dimen/margin_2x_large"
+                    android:padding="@dimen/margin_small"
+                    android:src="@drawable/scroll_next"
+                    android:visibility="visible"
+
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

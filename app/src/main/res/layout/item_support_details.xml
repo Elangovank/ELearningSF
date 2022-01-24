@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Base_Match_Wrap"
+    android:orientation="vertical"
+    android:background="@color/app_bg">
+
+    <LinearLayout
+        style="@style/Base_Match_Wrap"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/noDataTextView"
+            style="@style/Base_Match_Wrap"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/nomedia_bg"/>
+            <TextView
+                android:id="@+id/emptyTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_upper_medium"
+                android:fontFamily="@font/worksans_regular"
+                android:gravity="center"
+
+                android:textSize="@dimen/font_size_x_large"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                style="@style/Base_Match_Wrap"
+                android:layout_margin="@dimen/margin_medium"
+                android:clipToPadding="false"
+                android:fadeScrollbars="false"
+                android:scrollbarFadeDuration="0"
+                android:scrollbarSize="@dimen/padding_very_small"
+                android:scrollbarStyle="insideOverlay"
+                android:scrollbarThumbVertical="@color/colorPrimary"
+                android:scrollbars="vertical"
+                android:visibility="visible"
+                />
+            <View
+                android:id="@+id/viewDisableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/delete_selector_white"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+
+        <include layout="@layout/media_view" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.gmcoreui.controllers.ui.GMTextInputLayout
+                    android:id="@+id/commentGMTextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium"
+
+                    android:textColorHint="@color/text_gray">
+
+                    <EditText
+                        android:id="@+id/commentEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/worksans_regular"
+                        android:inputType="textMultiLine"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/font_size_small" />
+                </com.gmcoreui.controllers.ui.GMTextInputLayout>
+
+                <TextView
+                    android:id="@+id/uploadTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_large"
+                    android:layout_marginStart="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/padding_medium"
+                    android:paddingTop="@dimen/padding_medium"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+            <View
+                android:id="@+id/uploadDisableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/delete_selector_white"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

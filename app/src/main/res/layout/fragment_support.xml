@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <include layout="@layout/appbar_normal" />
+
+    <LinearLayout
+        android:id="@+id/raisedRequestLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginStart="@dimen/font_size_very_small"
+        android:background="@color/app_bg"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/Base_Wrap"
+            android:background="@drawable/item_shape_circle"
+            android:padding="@dimen/margin_x_large"
+            android:paddingTop="@dimen/margin_medium"
+            android:src="@drawable/ic_raiserequest" />
+
+        <LinearLayout
+            style="@style/Base_Wrap"
+            android:layout_marginStart="@dimen/margin_xx_large"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/issueCount"
+                style="@style/Base_Wrap"
+                tools:text="6"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_size_4x_large" />
+
+            <TextView
+                android:id="@+id/raisedRequestTextView"
+                style="@style/Base_Wrap"
+
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_size_small" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/Base_Match_Wrap"
+
+            >
+
+        <ImageView
+            style="@style/Base_Wrap"
+            android:layout_gravity="end"
+
+            android:layout_marginStart="@dimen/margin_xxx_large"
+            android:background="@drawable/item_shape_back_circle"
+            android:padding="@dimen/font_size_very_small"
+            android:src="@drawable/ic_next" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <include layout="@layout/item_chick_details" />
+
+</LinearLayout>

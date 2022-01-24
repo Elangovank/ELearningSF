@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Base_Match_Wrap"
+    android:fontFamily="@font/worksans_medium"
+    android:gravity="start"
+    android:maxLines="1"
+    android:textColor="@color/day_range"
+    android:textSize="@dimen/font_size_small"
+    tools:text="Spinner Spinner Spinner" />

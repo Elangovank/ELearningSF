@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="chaoose_your_language">आपली भाषा निवडा</string>
+    <string name="submit">सादर</string>
+    <string name="language_updated">भाषा अद्यतनित</string>
+    <string name="app_name" translatable="false">Suguna</string>
+    <string name="activity">क्रियाकलाप</string>
+    <string name="repository">रेपॉजिटरी</string>
+    <string name="report">अहवाल</string>
+    <string name="feedback">अभिप्राय</string>
+    <string name="support">समर्थन</string>
+    <!--  <string name="error_network_connection">इंटरनेट कनेक्शन तपासा.</string>-->
+   <!-- <string name="add_item">मीडिया जोडा</string>
+    <string name="remove_item">आयटम काढा</string>
+    <string name="morph_item_radius">Morph आयटम त्रिज्या:</string>
+    <string name="morph_corner_radius">कॉर्नर त्रिज्या Morph:</string>
+    <string name="morph_vertical_offset">Morph उभे ऑफसेट:</string>
+    <string name="value_dp">%ddp</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_Feedback">अभिप्राय</string>
+    <string name="title_daily_report">दैनिक अहवाल</string>
+    <string name="label_language">Language</string>
+    <string name="label_download">Download</string>
+    <string name="label_sign_out">Sign out</string>
+    <string name="title_support">समर्थन</string>
+    <string name="fliter">फिल्टर</string>
+    <string name="action_example">उदाहरणार्थ कारवाई</string>
+    <string name="action_settings">सेटिंग्ज</string>
+    <string name="chick_age_format">%s दिवस</string>
+    <string name="chick_ages_format">%s दिवस</string>
+    <string name="ok">ठीक आहे</string>
+    <string name="retry">पुन्हा प्रयत्न करा</string>
+    <string name="cancel">रद्द करा</string>
+    <string name="message_camera_permission">चित्र घेण्यासाठी प्रवेश कॅमेरा सक्षम करा.</string>
+    <string name="error">त्रुटी</string>
+    <string name="label_choose">निवडा</string>
+    <string name="label_select_picture">चित्र निवडा</string>
+    <string name="login">लॉग इन</string>
+    <string name="farm_code">फार्म कोड</string>
+    <string name="farm_id">id फार्म</string>
+    <string name="send_otp">OTP पाठवा</string>
+    <string name="change_language">भाषा बदला?</string>
+    <string name="otp">OTP</string>
+    <string name="password">पासवर्ड</string>
+    <string name="pause">विराम द्या</string>
+    <string name="resume">पुन्हा करा</string>
+    <string name="resend_otp">OTP परत पाठवा</string>
+    <string name="user_mobile_number">वापरकर्ता मोबाईल नाही</string>
+    <string name="creatre_password">पासवर्ड तयार करा</string>
+    <string name="re_enter_password">संकेतशब्द पुन्हा प्रविष्ट</string>
+    <string name="submit">सादर</string>
+    <string name="password_creation">पासवर्ड निर्मिती</string>
+    <string name="validate_farm_code">Validate शेत कोड</string>
+    <string name="chaoose_your_language">आपली भाषा निवडा</string>
+    <string name="forgot_password">पासवर्ड विसरला?</string>
+    <string name="message_login">लॉग इन ...</string>
+    <string name="close">बंद करा</string>
+    <string name="no_item_found">प्रदर्शित करण्यासाठी कोणतेही आयटम</string>
+    <string name="no_questions_found">प्रदर्शित करण्यासाठी कोणतेही प्रश्न</string>
+    <string name="no_record_found">कोणतेही रेकॉर्ड आढळले</string>
+    <string name="no_media_found">कोणताही मीडिया सापडला नाही</string>
+    <string name="pending">प्रलंबित</string>
+    <string name="completed">पूर्ण</string>
+    <string name="loading">लोड करीत आहे ...</string>
+    <string name="yes">होय</string>
+    <string name="no">नाही</string>
+    <string name="no_its_correct">नाही त्याचे अयोग्य</string>
+    <string name="media">सरासरी</string>
+    <string name="delete">मीडिया हटवा</string>
+    <string name="upload">अपलोड करा</string>
+    <string name="record_video">रेकॉर्ड व्हिडिओ</string>
+    <string name="capture_photo">फोटो कॅप्चर</string>
+    <string name="gallery">गॅलरी</string>
+    <string name="media_recorder">मीडिया रेकॉर्डर</string>
+    <string name="record_audio">ऑडिओ रेकॉर्ड</string>
+    <string name="record_again">पुन्हा रेकॉर्ड</string>
+    <string name="uplaod_content">आपले कार्य मीडिया केले अपलोड</string>
+    <string name="reason">कारण</string>
+    <string name="label_next">पुढील</string>
+    <string name="chick_bird">चिक / पक्षी</string>
+    <string name="support_center">समर्थन केंद्र</string>
+    <string name="label_date">तारीख</string>
+    <string name="label_chick_age">चिक / पक्षी वय</string>
+    <string name="label_submit">सादर</string>
+    <string name="confirm_submission">आपले सबमिशन पुष्टी करायची?</string>
+    <string name="label_confirm">पुष्टी करा</string>
+    <string name="label_start">प्रारंभ</string>
+    <string name="label_re_start">रीस्टार्ट</string>
+    <string name="comment">टिप्पणी</string>
+    <string name="select_image">प्रतिमा</string>
+    <string name="select_video">व्हिडिओ</string>
+    <string name="select_audio">ऑडिओ</string>
+    <string name="select_files">फायली निवडा</string>
+    <string name="feed_stock">फीड स्टॉक</string>
+    <string name="reciept">पावती पावती</string>
+    <string name="feed_consumption">फीड वापर</string>
+    <string name="feed_transfer">हस्तांतरण फीड</string>
+    <string name="open_bags">ओपन बॅग</string>
+    <string name="mortality">मृत्यु</string>
+    <string name="body_weight">शरीर वजन</string>
+    <string name="no_of_bags">पिशव्या क्रमांक</string>
+    <string name="no_of_receipt">पावती क्रमांक</string>
+    <string name="no_of_hen">चिक / पक्ष्यांची संख्या</string>
+    <string name="activity">क्रियाकलाप</string>
+    <string name="repository">रेपॉजिटरी</string>
+    <string name="report">अहवाल</string>
+    <string name="feedback">अभिप्राय</string>
+    <string name="support">समर्थन</string>
+    <string name="today_activity">आजचे क्रियाकलाप</string>
+    <string name="video">व्हिडिओ</string>
+    <string name="photos">फोटो</string>
+    <string name="audio">ऑडिओ</string>
+    <string name="chick_type">चिक / पक्षी</string>
+    <string name="feed">फीड</string>
+    <string name="medicine">औषध</string>
+    <string name="antibiotics">प्रतिजैविक</string>
+    <string name="title_repository">रेपॉजिटरी</string>
+    <string name="title_activity">क्रियाकलाप</string>
+    <string name="feed_back_successfully">आपला अभिप्राय यशस्वीरित्या-गेले आहे सबमिट</string>
+    <string name="language_updated">भाषा अद्यतनित</string>
+    <string name="search_hint">औषध संबंधित समस्यांसाठी येथे शोधा</string>
+    <string name="feed_back_updated">आपल्या दैनंदिन अहवाल यशस्वीपणे-गेले आहे सबमिट</string>
+    <string name="record_audio_error">पुढे जाण्यासाठी ऑडिओ रेकॉर्ड करा</string>
+    <string name="upload_error_message">कृपया किमान एक आयटम अपलोड करण्यासाठी तुम्ही निवडू</string>
+    <string name="missing_data">गहाळ डेटा</string>
+    <string name="invalid_user">अवैध वापरकर्ता</string>
+    <string name="token_missing">टोकन गहाळ</string>
+    <string name="enter_farm_code">कोड शेत प्रविष्ट करा</string>
+    <string name="enter_otp">OTP प्रविष्ट करा</string>
+    <string name="unsupported_track">असमर्थित ट्रॅक</string>
+    <string name="unread">एक वाचा</string>
+    <string name="Notifications">सूचना</string>
+    <string name="downloading">डाउनलोड करत आहे ...</string>
+    <string name="age_days">चिक / पक्षी वय:</string>
+    <string name="filtered_date">फिल्टर दिनांक:</string>
+    <string name="or">(किंवा)</string>
+    <string name="default_activity">मुलभूत क्रियाकलाप</string>
+    <string name="submittedSucessfully">यशस्वीरित्या सबमिट</string>
+    <string name="under_develop">विकास अंतर्गत वैशिष्ट्य</string>
+
+    <string name="error_password_length_min">असणे आवश्यक आहे किमान %s वर्ण</string>
+    <string name="error_password_length_max">%s हून अधिक वर्ण ओलांडू नये</string>
+    <string name="warning">चेतावणी</string>
+    <string name="error_in_permission">परवानगी नाकारली.</string>
+    <string name="error_field_required">हे फील्ड आवश्यक आहे.</string>
+    <string name="error_network_connection">इंटरनेट कनेक्शन तपासा.</string>
+    <string name="error_client_key_missing">क्लायंट की गहाळ आहे</string>
+    <string name="error_password_mismatch">पासवर्ड जुळले आहे</string>
+    <string name="error_daily_report">Please fill daily report</string>
+    <string name="media_activity">Media provided for this acivity </string>
+
+    <string name="answer">उत्तर</string>
+
+
+
+
+    <string name="label_all" >All</string>
+    <string name="label_open">Open</string>
+    <string name="label_resolved">Resolved</string>
+    <string name="media_uploded">Media uploaded by you</string>
+    <string name="questions_raised">Questions raised by you</string>
+    <string name="solution">solution</string>
+    <string name="title_raised_request">Raised requests</string>
+    <string name="marketting">Marketting</string>
+    <string name="management">Management</string>
+    <string name="others">Others</string>
+    <string name="chick_days_error">Incorrect chick days</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="activity_progresss">Activity Progress</string>
+    <string name="history">History</string>
+    <string name="standard">Standard</string>
+    <string name="special_activity">Speical Activity</string>
+    <string name="chick_days">Chick Age</string>
+    <string name="regular_activity">Regular Activity</string>
+    <string name="day_range">Day</string>
+    <string name="incomplete">Incomplete</string>
+    <string name="upload_media">Upload Photo/Video/Audio</string>
+    <string name="media_provided">Media provided for this activity</string>
+    <string name="activity_status">Activity Status</string>
+    <string name="error_server">Failed to connect to /199.101.186.56:8118</string>
+    <string name="document">Document</string>
+    <string name="lable_days">days</string>
+    <string name="message_enter">Please Enter the Answer</string>
+    <string name="message_upload_media">You Can Upload Only 5 Media</string>
+    <string name="error_invalid">Invalid</string>
+    <string name="rating">Rating</string>
+    <string name="capture_problem">Capture your problem</string>
+    <string name="message_submit_feedback">Please submit your feedback</string>
+    <string name="day_label">Day %s</string>
+
+    <string name="new_feedback">New feedback</string>
+    <string name="new_report">New report</string>
+    <string name="lable_bags">bags</string>
+    <string name="lable_receipt">receipts</string>
+    <string name="lable_chickens">chickens</string>
+     <string name="lable_gm">gram</string>
+    <string name="updated_string">updated</string>
+    <string name="times">times</string>
+    <string name="in_kg">in Gram</string>
+
+    <string name="error_upload">Failed to upload.Please try again</string>
+
+    <string name="label_success">Success</string>
+    <string name="error_not_supported_video">Video Not Supported.</string>
+    <string name="messege_support_submit">Please select the option/Enter the comment</string>
+    <string name="lable_offline">Offline</string>
+
+    <string name="trimming_message">trimming...</string>
+    <string name="compressing_message">Compressing...</string>
+    <string name="error_trimming">failed trimming</string>
+    <string name="error_while_previewing_video">error while previewing video</string>
+
+    //Strings mofified on 19-06-2020
+
+    <string name="label_estimated_arrival">Estimated arrival</string>
+    <string name="label_item">Item</string>
+    <string name="label_dispatched_qty">Dispatched Qty</string>
+    <string name="title_material_arrival">Material arrivals</string>
+    <string name="next_material">Next Material arrival on</string>
+    <string name="next_check_arrival">Next Check arrival on</string>
+    <string name="title_dispatch_status">Dispatch status</string>
+    <string name="label_in_transit">IN-TRANSIT</string>
+    <string name="label_completed">COMPLETED</string>
+    <string name="label_items">items</string>
+    <string name="dispatch_status">Dispatch Status</string>
+    <string name="performance_report">Performance Report</string>
+    <string name="weather">Weather</string>
+    <string name="Chicks">Chicks</string>
+    <string name="lifted_quantity">Lifted.qty</string>
+    <string name="average_weight">Avg. weight</string>
+    <string name="feedintake">Feed intake</string>
+    <string name="mortality_count">Mortality</string>
+    <string name="mean_age">Mean age</string>
+    <string name="fcr">FCR</string>
+    <string name="day_gain">Day Gain</string>
+    <string name="request_id">Request ID</string>
+    <string name="new_comment">New comment</string>
+    <string name="attachements">Attachements</string>
+    <string name="enter_comments">Please enter the comment</string>
+    <string name="apply">Apply</string>
+    <string name="cancel_all">Cancel All</string>
+    <string name="individual_charts">Individual charts</string>
+    <string name="comparison_charts">Comparison charts</string>
+    <string name="feed_intake">Feed intake</string>
+    <string name="shed_ready_activity_label">Shed Ready Activity</string>
+
+
+    <string name="label_precipitation">Precipitation</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="label_wind">Wind</string>
+    <string name="title_weather" >Weather</string>
+    <string name="message_enter_comment" >Type your comment</string>
+    <string name="title_arrived_materials">Arrived materials</string>
+    <string name="feeds">Feeds</string>
+    <string name="arrived_qty">Arrived Qty</string>
+    <string name="label_new_comparision">New comparison</string>
+    <string name="parameter1">Parameter 1</string>
+    <string name="parameter2">Parameter 2</string>
+    <string name="message_selected_batches">Batches Selected</string>
+    <string name="message_selected_batch">Batch Selected</string>
+    <string name="selected_batches">Please select the batch</string>
+    <string name="message_batch_selection">Please deselect any other batch</string>
+
+
+    <string name="label_view_chart">View chart in full screen</string>
+    <string name="label_standard">Standard</string>
+    <string name="kg">kg</string>
+    <string name="grms">Grms</string>
+    <string name="message_arrival">Enter the Arrival Quentity</string>
+
+    <string name="d_age">Age in days</string>
+    <string name="batch_selection">Batch selection</string>
+    <string name="driver_no" >call driver</string>
+    <string name="feed_transfer_in" >Feed Transfer In</string>
+    <string name="title_farmer" >Farmer Support</string>
+    <string name="message_part1">We welcome our registered Farmer to use this app by contacting our Supervisor or Branch Manager</string>
+    <string name="message_part2">This app can be used only by our registered Farmer</string>
+    <string name="message_part3">To associate with Suguna,please contact our customer care no. 1800 103 43 43</string>
+    <string name="no_batch" >no batches found</string>
+    <string name="choose" >Choose</string>
+    <string name="version">version</string>
+    <string name="label_k">K</string>
+    <string name="label_g">g</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>-->
+
+
+
+
+
+    <!--Error List-->
+
+    <string-array name="error_list" >
+        <item>DefaultString</item>
+        <item>Activity Id Missing</item>
+        <item>Activity not found</item>
+        <item>Activity Response Text Empty</item>
+        <item>Batch inactive</item>
+        <item>Branch missing</item>
+        <item>Client key cant be empty</item>
+        <item>Email address already exist</item>
+        <item>Email address is missing</item>
+        <item>en</item>
+        <item>Internal Server Error</item>
+        <item>Farm code is missing</item>
+        <item>Farm inactive</item>
+        <item>Farm not found</item>
+        <item>File not found</item>
+        <item>From date is empty</item>
+        <item>Invalid from date</item>
+        <item>[HATCH_DATE]</item>
+        <item>Inactive user</item>
+        <item>Invalid Activity</item>
+        <item>Invalid client key</item>
+        <item>Invalid request. Hatch date is [HATCH_DATE]</item>
+        <item>Invalid login credential</item>
+        <item>Invalid OTP number</item>
+        <item>Invalid Request</item>
+        <item>User not found to assign for next level of approval</item>
+        <item>Invalid User</item>
+        <item>Language Missing</item>
+        <item>Line Code missing</item>
+        <item>Location Missing</item>
+        <item>Login base</item>
+        <item>Media Not Found</item>
+        <item>Media saved successfully</item>
+        <item>Media Type Id Missing</item>
+        <item>Mobile number already exist</item>
+        <item>Mobile number is missing</item>
+        <item>Mobile number is not registered with the given farm code</item>
+        <item>User name is missing</item>
+        <item>OTP is missing</item>
+        <item>OTP sent successfully to your registered mobile number</item>
+        <item>OtpSMS</item>
+        <item>[OTP_VALUE]</item>
+        <item>paging</item>
+        <item>Password is missing</item>
+        <item>Password saved successfully</item>
+        <item>Push notification message missing</item>
+        <item>Push notification title missing</item>
+        <item>Push token is empty</item>
+        <item>Push token key added</item>
+        <item>Push token key is missing</item>
+        <item>Record Deleted Successfully</item>
+        <item>No record found</item>
+        <item>Region inactive</item>
+        <item>Region missing</item>
+        <item>Value</item>
+        <item>Repository category missing</item>
+        <item>Repository Id missing</item>
+        <item>Role empty</item>
+        <item>Role is missing</item>
+        <item>Role type empty</item>
+        <item>The request has been declined for security reasons</item>
+        <item>Support category missing</item>
+        <item>Support inactive</item>
+        <item>Support response saved successfully</item>
+        <item>To date is empty</item>
+        <item>Unauthorised</item>
+        <item>UploadedMedias</item>
+        <item>User code already exist</item>
+        <item>User code is missing</item>
+        <item>user dont have permission to access this.</item>
+        <item>User missing</item>
+        <item>User not found</item>
+        <item>Email send succesfully</item>
+        <item>Email send failed</item>
+        <item>Activity Response Saved Successfully</item>
+        <item>Notification send failed</item>
+        <item>Activity Response Saved Successfully</item>
+        <item>Activity Created Successfully</item>
+        <item>Repository Saved Successfully</item>
+        <item>Repository Media deleted Successfully</item>
+        <item>User Saved Successfully</item>
+        <item>Repository Inactive</item>
+        <item>Repository Category Saved Success</item>
+        <item>Repository Category name already exist</item>
+        <item>Activity Category name already exist</item>
+        <item>Activity Category saved successfully</item>
+        <item>Activity Category Missing</item>
+        <item>Branch Id Missing</item>
+        <item>Id Missing</item>
+        <item>Chick Detail NotFound</item>
+        <item>Feed Detail NotFound</item>
+        <item>Medicine Detail NotFound</item>
+        <item>HatchDate Missing</item>
+        <item>BatchMaster NotFound</item>
+        <item>Feedback Category Missing</item>
+        <item>Ledger Id Missing</item>
+        <item>Region Id Missing</item>
+        <item>Division Missing</item>
+        <item>Branch Name Missing</item>
+        <item>FromMonth Missing</item>
+        <item>ToMonth Missing</item>
+        <item>Broiler Branch Not Found</item>
+        <item>Season Not Found</item>
+        <item>Region Name Missing</item>
+        <item>Region Code Missing</item>
+        <item>LatitudeMissing</item>
+        <item>LongitudeMissing</item>
+        <item>Latitude Not Valid Format</item>
+        <item>Longitude Not Valid Format</item>
+        <item>Region Code Already Exists</item>
+        <item>Region Added Successfull</item>
+        <item>Region Updated Successfully</item>
+        <item>BranchCode is Missing</item>
+        <item>FarmNameVillage is Missing</item>
+        <item>AddressLine1 is Missing</item>
+        <item>AddressLine2 is Missing</item>
+        <item>Village is Missing</item>
+        <item>TownCity is Missing</item>
+        <item>Taluk is Missing</item>
+        <item>District is Missing</item>
+        <item>State is Missing</item>
+        <item>Pincode is Missing</item>
+        <item>MobileNumber is Missing</item>
+        <item>RearingArea is Missing</item>
+        <item>WaterSource is Missing</item>
+        <item>Hardness is Missing</item>
+        <item>Ph is Missing</item>
+        <item>RoadFacility is Missing</item>
+        <item>FarmManagedBy is Missing</item>
+        <item>ShedType is Missing</item>
+        <item>RoofType is Missing</item>
+        <item>FloorType is Missing</item>
+        <item>ShedDirection is Missing</item>
+        <item>LightingSource is Missing</item>
+        <item>PipeLine is Missing</item>
+        <item>Broiler Farm Added Successfull</item>
+        <item>Broiler Farm Updated Successfull</item>
+        <item>Batch Added Successfull</item>
+        <item>Batch Updated Successfull</item>
+        <item>Batch AddOrUpdate Failed</item>
+        <item>Chick Detail Added Successfull</item>
+        <item>Chick Detail Updated Successfull</item>
+        <item>Chick Detail AddOrUpdate Failed</item>
+        <item>Feed Detail Added Successfull</item>
+        <item>Feed Detail Updated Successfull</item>
+        <item>Feed Detail AddOrUpdate Failed</item>
+        <item>Broiler Farm AddOrUpdate Failed</item>
+        <item>Region AddOrUpdate Failed</item>
+        <item> Medicine Detail Added Successfull</item>
+        <item>Medicine Detail Updated Successfull</item>
+        <item> Medicine Detail AddOrUpdate Failed</item>
+        <item> Broiler Branches Added Successfull</item>
+        <item>Broiler Branches Updated Successfull</item>
+        <item>Broiler Branches AddOrUpdate Failed</item>
+        <item>Season Added Successfull</item>
+        <item> Season Updated Successfull</item>
+        <item>Season AddOrUpdate Failed</item>
+        <item> Branch is Active</item>
+        <item>Support name already exist</item>
+        <item> Support Category saved success</item>
+        <item>Support Id missing</item>
+        <item>Question missing</item>
+        <item>Support question saved success</item>
+        <item>Support question id missing</item>
+        <item>Title Missing</item>
+        <item>Content Missing</item>
+        <item>Repository Content saved successfully</item>
+        <item>Activity Media deleted Successfully</item>
+    </string-array>
+
+</resources>

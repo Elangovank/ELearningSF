@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/appbar_normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/toolbar_gradient"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/newFeedbackTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/newFeedbackLineView"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/newFeedbackLineView"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_alignParentBottom="true"
+                android:elevation="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="3dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/historyTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/historyLineView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/historyLineView"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_alignParentBottom="true"
+                android:elevation="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="3dp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_medium"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_xxx_large"
+            android:gravity="center"
+            android:paddingTop="@dimen/padding_medium"
+            android:paddingBottom="@dimen/padding_medium"
+            android:text="We will provide by 6 PM"
+            android:textColor="@color/text_gray" />
+    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/standardLayout"
+            layout="@layout/layout_dailyreport_table" />
+
+        <LinearLayout
+            android:id="@+id/reportHistoryView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:id="@+id/swipeContainer"
+                style="@style/Base_Match">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/feedbackHistoryRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_very_small"
+                    android:layout_marginTop="@dimen/margin_small" />
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/reportView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/historyNestedScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/feedbackRecyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/margin_very_small"
+                            android:layout_marginTop="@dimen/margin_small" />
+
+                        <include layout="@layout/item_body_weight_layout" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <com.gmcoreui.controllers.ui.GMTextInputLayout
+                            android:id="@+id/reasonGMTextInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_medium"
+                            android:textColorHint="@color/text_gray">
+
+                            <EditText
+                                android:id="@+id/reasonEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/worksans_regular"
+                                android:inputType="textMultiLine"
+                                android:textColor="@color/text_gray"
+                                android:textSize="@dimen/font_size_small" />
+
+                        </com.gmcoreui.controllers.ui.GMTextInputLayout>
+
+                        <TextView
+                            android:id="@+id/submitTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_large"
+                            android:layout_marginTop="@dimen/margin_large"
+                            android:layout_marginEnd="@dimen/margin_large"
+                            android:layout_marginBottom="@dimen/margin_xxx_large"
+                            android:background="@drawable/button_background"
+                            android:gravity="center"
+                            android:paddingTop="@dimen/padding_medium"
+                            android:paddingBottom="@dimen/padding_medium"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

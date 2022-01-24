@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@+id/typeBackgroundView"
+        android:layout_width="20dp"
+        android:layout_height="5dp"
+        android:layerType="software"
+        android:layout_marginStart="@dimen/margin_large"
+        tools:background="@drawable/horizontal_dash_line"
+        />
+
+    <TextView
+        android:id="@+id/chartTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_small"
+        android:textColor="@color/black"
+        tools:text="text"
+        />
+
+</LinearLayout>

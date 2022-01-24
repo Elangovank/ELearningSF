@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_large"
+    android:layout_marginBottom="@dimen/margin_large"
+    android:orientation="vertical"
+
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        style="@style/Base_Match_Wrap"
+        android:padding="@dimen/padding_medium">
+
+
+        <TextView
+            android:id="@+id/vehicleNumberTextView"
+            style="@style/Base_Wrap"
+            android:drawableStart="@drawable/ic_vehicle"
+            android:drawablePadding="@dimen/padding_medium"
+            android:fontFamily="@font/worksans_medium"
+            android:textColor="@color/activity_text"
+            android:textSize="@dimen/font_size_small"
+            tools:text="TN37 CA 8907" />
+
+        <TextView
+            android:id="@+id/phoneNumberTextView"
+            style="@style/Base_Wrap"
+            android:text="9994302231"
+            android:textSize="@dimen/font_size_very_small"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_call_black"
+            android:drawablePadding="@dimen/margin_small"
+            android:layout_alignParentEnd="true"
+            android:layout_alignEnd="@+id/vehicleNumberTextView"
+            />
+        <LinearLayout
+            android:id="@+id/timeLayout"
+            style="@style/Base_Wrap"
+            android:layout_below="@+id/vehicleNumberTextView"
+            >
+
+        <TextView
+            android:id="@+id/estimatedArrivalTextView"
+            style="@style/Base_Wrap"
+            android:fontFamily="@font/worksans_light"
+            android:textColor="@color/gray_shade1"
+            android:textSize="@dimen/font_size_ultra_small" />
+            <TextView
+                android:id="@+id/arrivalTimeTextView"
+                style="@style/Base_Wrap"
+                android:layout_below="@+id/vehicleNumberTextView"
+                android:layout_toEndOf="@+id/estimatedArrivalTextView"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:fontFamily="@font/worksans_regular"
+                android:textColor="@color/day_range"
+                android:textSize="@dimen/font_size_small"
+                tools:text="11:30" />
+
+
+            <TextView
+                android:id="@+id/timeTextView"
+                style="@style/Base_Wrap"
+                android:layout_below="@+id/vehicleNumberTextView"
+                android:layout_toEndOf="@+id/estimatedArrivalTextView"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:fontFamily="@font/worksans_regular"
+                android:textColor="@color/day_range"
+                android:textSize="@dimen/font_size_small"
+                tools:text="11:30" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/itemTextView"
+            style="@style/Base_Wrap"
+            android:layout_marginTop="@dimen/margin_small"
+            android:fontFamily="@font/worksans_regular"
+            android:textColor="@color/text_gray_light_shade1"
+            android:textSize="@dimen/font_size_very_small"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:id="@+id/describeLayout"
+            android:layout_below="@+id/timeLayout"
+            style="@style/Base_Match_Wrap"
+
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                style="@style/Base_Wrap"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/materialNameTextView"
+                    style="@style/Base_Wrap"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/worksans_regular"
+                    android:textColor="@color/text_gray_light_shade1"
+                    android:textSize="@dimen/font_size_small"
+                    tools:text="Feed-PBS" />
+
+                <TextView
+                    android:id="@+id/itemLabelTextView"
+                    style="@style/Base_Wrap"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/worksans_regular"
+                    android:textColor="@color/text_gray_light_shade1"
+                    android:textSize="@dimen/font_size_very_small" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/arrivedQtyTextView"
+                    style="@style/Base_Wrap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/worksans_regular"
+                    android:textColor="@color/text_gray_light_shade1"
+                    android:textSize="@dimen/font_size_small"
+                    tools:text="20 Bages" />
+
+                <TextView
+                    android:id="@+id/dispatchedTextView"
+                    style="@style/Base_Wrap"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/worksans_regular"
+
+                    android:textColor="@color/text_gray_light_shade1"
+                    android:textSize="@dimen/font_size_very_small" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dispatchedQtyTextView"
+                    style="@style/Base_Wrap"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/worksans_regular"
+                    android:textColor="@color/text_gray_light_shade1"
+                    android:textSize="@dimen/font_size_small"
+                    tools:text="20 Bages" />
+
+                <TextView
+                    android:id="@+id/arrivalTextView"
+                    style="@style/Base_Wrap"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/worksans_regular"
+                    android:textColor="@color/text_gray_light_shade1"
+                    android:textSize="@dimen/font_size_very_small" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/commentLayout"
+            android:layout_marginTop="@dimen/margin_large"
+            style="@style/Base_Match_Wrap"
+            android:layout_below="@+id/describeLayout"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/commentLabelTextView"
+                style="@style/Base_Match_Wrap"
+                android:fontFamily="@font/worksans_regular"
+                android:textColor="@color/text_gray_light_shade2"
+                android:textSize="@dimen/font_size_ultra" />
+
+            <TextView
+                android:id="@+id/commentTextView"
+                style="@style/Base_Match_Wrap"
+                android:layout_marginTop="@dimen/margin_small"
+                tools:text="This the very bad"
+                android:fontFamily="@font/worksans_medium"
+                android:textSize="@dimen/font_size_small"
+                />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

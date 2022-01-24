@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Base_Match"
+    android:background="@color/app_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/appbar_normal" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        style="@style/Base_Match_Wrap"
+        android:layout_gravity="bottom"
+        android:enabled="false"
+        android:fontFamily="@font/worksans_medium"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_very_small"
+        app:iconifiedByDefault="false" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeContainer"
+            style="@style/Base_Match">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerViewRepository"
+                        style="@style/Base_Match_Wrap"
+                        android:layout_margin="@dimen/margin_small"
+                        android:clipToPadding="false"
+                        android:fadeScrollbars="false"
+                        android:scrollbarFadeDuration="0"
+                        android:scrollbarSize="@dimen/padding_very_small"
+                        android:scrollbarStyle="insideOverlay"
+                        android:scrollbars="vertical"
+                        android:visibility="visible" />
+
+
+                </LinearLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </FrameLayout>
+
+</LinearLayout>

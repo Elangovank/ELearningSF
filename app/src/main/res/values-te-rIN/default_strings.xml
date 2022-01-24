@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="chaoose_your_language">మీ భాషను ఎంచుకోండి</string>
+    <string name="submit">సమర్పించండి</string>
+    <string name="language_updated">భాష నవీకరించబడింది</string>
+    <string name="app_name" translatable="false">Suguna</string>
+    <string name="activity">కార్యాచరణ</string>
+    <string name="repository">రిపోజిటరీ</string>
+    <string name="report">నివేదిక</string>
+    <string name="feedback">అభిప్రాయం</string>
+    <string name="support">రైతు మద్దతు</string>
+<!--
+     <string name="add_item">మీడియాను జోడించండ</string>
+        <string name="remove_item">అంశాన్ని తొలగించండి</string>
+        <string name="title_activity_home">అంశాన్ని తొలగించండి</string>
+        <string name="title_Feedback">అభిప్రాయం</string>
+        <string name="title_daily_report">రోజువారీ నివేదిక</string>
+        <string name="label_language">భాషా</string>
+        <string name="label_download">డౌన్లోడ్</string>
+        <string name="label_sign_out">సైన్ అవుట్ చేయండి</string>
+        <string name="action_example">ఉదాహరణ</string>
+        <string name="action_settings">సెట్టింగులు</string>
+        <string name="chick_age_format">రోజు</string>
+        <string name="chick_ages_format">రోజులు</string>
+        <string name="ok">అలాగే</string>
+        <string name="retry">మళ్ళీ ప్రయత్నించు</string>
+        <string name="cancel">రద్దు చేయు</string>
+        <string name="message_camera_permission">ఫోటో తీయడానికి దయచేసి కెమెరా వాడటానికి అనుమతివ్వండి.</string>
+        <string name="error">పొరపాటు</string>
+        <string name="label_choose">ఎంచుకొను</string>
+        <string name="label_select_picture">ఫోటో ఎంచుకోండి</string>
+        <string name="login">లాగిన్</string>
+        <string name="farm_code">ఫార్మ్ కోడ్</string>
+        <string name="farm_id">ఫార్మ్ ఐడి</string>
+        <string name="send_otp">OTP పంపండి</string>
+        <string name="change_language">భాషను మార్చు</string>
+        <string name="otp">OTP</string>
+        <string name="password">పాస్వర్డ్</string>
+        <string name="pause">స్వల్ప విరామము</string>
+        <string name="resume">తిరిగి ప్రారంభించు</string>
+        <string name="resend_otp">OTP ని మళ్లీ పంపండి</string>
+        <string name="user_mobile_number">వినియోగదారు మొబైల్ నెంబర్</string>
+        <string name="creatre_password">పాస్వర్డ్ సృష్టించు</string>
+        <string name="re_enter_password">పాస్వర్డ్ను తిరిగి నమోదు చేయండి</string>
+        <string name="submit">సమర్పించండి</string>
+        <string name="password_creation">పాస్వర్డ్ సృష్టి</string>
+        <string name="validate_farm_code">ఫార్మ్ కోడ్‌ను ధృవీకరించండి</string>
+        <string name="chaoose_your_language">మీ భాషను ఎంచుకోండి</string>
+        <string name="forgot_password">పాస్‌వర్డ్ మర్చిపోయారా?</string>
+        <string name="message_login">లాగింగ్ ఇన్</string>
+        <string name="close">మూసివేయబడింది</string>
+        <string name="no_item_found">ప్రదర్శించడానికి అంశాలు లేవు</string>
+        <string name="no_questions_found">ప్రదర్శించడానికి ప్రశ్నలు లేవు</string>
+        <string name="no_record_found">ఎటువంటి రికార్డులు లేవు</string>
+        <string name="no_media_found">ఎటువంటి మీడియా లేదు</string>
+        <string name="pending">పెండింగ్</string>
+        <string name="completed">పూర్తిచేయబడింది</string>
+        <string name="loading">లోడింగ్</string>
+        <string name="yes">అవును</string>
+        <string name="no">కాదు</string>
+        <string name="no_its_correct">లేదు, ఇది తప్పు</string>
+        <string name="media">మీడియా</string>
+        <string name="delete">మీడియాను తొలగించండి</string>
+        <string name="upload">అప్లోడ్</string>
+        <string name="record_video">వీడియోను రికార్డ్ చేయండి</string>
+        <string name="capture_photo">ఫోటోను తీయండి</string>
+        <string name="gallery">గ్యాలరీ</string>
+        <string name="media_recorder">మీడియా రికార్డర్</string>
+        <string name="record_audio">రికార్డ్ ఆడియో</string>
+        <string name="record_again">మళ్ళీ రికార్డ్ చేయండి</string>
+        <string name="uplaod_content">మీ పనిని మీడియా ద్వారా అప్‌లోడ్ చేయండి</string>
+        <string name="reason">కారణం</string>
+        <string name="label_next">తరువాత</string>
+        <string name="chick_bird">కోడి పిల్ల/పక్షి</string>
+        <string name="support_center">మద్దతు</string>
+        <string name="label_date">తేదీ</string>
+        <string name="label_chick_age">కోడి పిల్ల/పక్షి వయస్సు</string>
+        <string name="label_submit">సబ్మిట్</string>
+        <string name="confirm_submission">సబ్మిషన్ను ద్రువీకరించండి</string>
+        <string name="label_confirm">నిర్ధారించండి</string>
+        <string name="label_start">ప్రారంభం</string>
+        <string name="label_re_start">పునఃప్రారంభించు</string>
+        <string name="comment">అభిప్రాయం</string>
+        <string name="select_image">చిత్రం</string>
+        <string name="select_video">వీడియో</string>
+        <string name="select_files">ఫైళ్ళను ఎంచుకోండి</string>
+        <string name="feed_stock">ఫీడ్ స్టాక్</string>
+        <string name="reciept">మేత స్వీకరణ</string>
+        <string name="feed_consumption">ఫీడ్ వినియోగం</string>
+        <string name="feed_transfer">ఫీడ్ అవుట్ బదిలీ</string>
+        <string name="open_bags">తెరచిన సంచులు</string>
+        <string name="mortality">మరణాలు</string>
+        <string name="body_weight">శరీర బరువు</string>
+        <string name="no_of_bags">సంచులు సంఖ్య</string>
+        <string name="no_of_receipt">రసీదులు సంఖ్య</string>
+        <string name="no_of_hen">కోడిపిల్లలు / పక్షుల సంఖ్య</string>
+
+        <string name="activity">కార్యాచరణ</string>
+        <string name="repository">రిపోజిటరీ</string>
+        <string name="report">నివేదిక</string>
+        <string name="feedback">అభిప్రాయం</string>
+        <string name="support">మద్దతు</string>
+        <string name="today_activity">నేటి కార్యాచరణ</string>
+        <string name="video">వీడియో</string>
+        <string name="photos">ఫోటోలు</string>
+        <string name="chick_type">కోడి పిల్ల/పక్షి</string>
+        <string name="feed">మేత</string>
+        <string name="medicine">మందు</string>
+        <string name="antibiotics">యాంటీబయాటిక్స్</string>
+        <string name="title_repository">రిపోజిటరీ</string>
+        <string name="title_activity">కార్యాచరణ</string>
+        <string name="feed_back_successfully">మీ అభిప్రాయం విజయవంతంగా సమర్పించబడింది</string>
+        <string name="language_updated">భాష నవీకరించబడింది</string>
+        <string name="search_hint">వెతకండి</string>
+        <string name="feed_back_updated">మీ రోజువారీ నివేదిక విజయవంతంగా సమర్పించబడింది</string>
+        <string name="record_audio_error">కొనసాగడానికి దయచేసి ఆడియోను రికార్డ్ చేయండి</string>
+        <string name="upload_error_message">అప్‌లోడ్ చేయడానికి దయచేసి కనీసం ఒక అంశాన్ని ఎంచుకోండి</string>
+        <string name="missing_data">సమాచారం లేదు</string>
+        <string name="invalid_user">చెల్లని వినియోగదారు</string>
+        <string name="token_missing">టోకెన్ లేదు</string>
+        <string name="enter_farm_code">ఫార్మ్ కోడ్‌ను నమోదు చేయండి</string>
+        <string name="enter_otp">Otp ని నమోదు చేయండి</string>
+        <string name="unsupported_track">మద్దతు లేని ట్రాక్</string>
+        <string name="unread">చదవని</string>
+        <string name="Notifications">ప్రకటనలు</string>
+        <string name="downloading">డౌన్లోడ్ అవుతోంది</string>
+        <string name="age_days">కోడి పిల్ల/పక్షి వయస్సు</string>
+        <string name="filtered_date">ఫిల్టర్ చేసిన తేదీ</string>
+        <string name="or">లేదా</string>
+        <string name="default_activity">డిఫాల్ట్ కార్యాచరణ</string>
+        <string name="submittedSucessfully">విజయవంతంగా సమర్పించబడింది</string>
+        <string name="under_develop">ఫీచర్ అభివృద్ధిలో ఉంది</string>
+        <string name="label_all">అన్ని</string>
+        <string name="label_open">ప్రారంభ</string>
+        <string name="label_resolved">పరిష్కరించిన</string>
+        <string name="media_uploded">మీరు అప్‌లోడ్ చేసిన మీడియా</string>
+        <string name="questions_raised">మీరు లేవనెత్తిన ప్రశ్నలు</string>
+        <string name="solution">పరిష్కారం</string>
+        <string name="title_raised_request">నమోదు చేయబడిన అభ్యర్థనలు</string>
+        <string name="marketting">డౌన్‌లోడ్ పెండింగ్‌లో ఉంది</string>
+        <string name="management">క్రయవిక్రయాలు</string>
+        <string name="others">నిర్వహణ</string>
+        <string name="chick_days_error">ఇతరులు</string>
+        <string name="sub_category">కోడి పిల్ల తప్పు వయస్సు</string>
+        <string name="remember_me">చూడడానికి క్లిక్ చేయండి</string>
+        <string name="activity_progresss">నన్ను గుర్తు పెట్టుకో</string>
+        <string name="history">కార్యాచరణ పురోగతి</string>
+        <string name="standard">చరిత్ర</string>
+        <string name="special_activity">ప్రామాణికం</string>
+        <string name="chick_days">ప్రత్యేక కార్యాచరణ</string>
+        <string name="regular_activity">కోడి పిల్ల వయస్సు</string>
+
+
+        <string name="day_label">రోజు %s</string>
+
+        <string name="incomplete">తక్కువ చదవండి</string>
+        <string name="upload_media">అసంపూర్తిగా</string>
+        <string name="media_provided">ఫోటో / వీడియో / ఆడియోను అప్‌లోడ్ చేయండి</string>
+        <string name="activity_status">ఈ కార్యాచరణ కోసం మీడియా అందించబడింది</string>
+        <string name="error_server">కార్యాచరణ స్థితి</string>
+        <string name="document">డాక్యుమెంట్</string>
+        <string name="error_password_length_min">కనీసం% s అక్షరాలు ఉండాలి</string>
+        <string name="error_password_length_max">% S కంటే ఎక్కువ అక్షరాలు మించకూడదు</string>
+        <string name="warning">హెచ్చరిక</string>
+        <string name="error_in_permission">అనుమతులు తిరస్కరించబడ్డాయి.</string>
+        <string name="error_field_required">ఈ ఖాళీని తప్పనిసరిగా పూరించవలెను.</string>
+        <string name="error_network_connection">దయచేసి ఇంటర్నెట్ కనెక్షన్‌ను సరిచూసుకోండి</string>
+        <string name="error_password_mismatch">Password mismatch</string>
+        <string name="error_daily_report">దయచేసి రోజువారీ నివేదికను పూరించండి</string>
+
+        <string name="message_enter">దయచేసి జవాబును నమోదు చేయండి</string>
+        <string name="message_upload_media">మీరు 5 మీడియాను మాత్రమే అప్‌లోడ్ చేయగలరు</string>
+        <string name="error_invalid">చెల్లని</string>
+        <string name="select_audio">ఆడియో</string>
+        <string name="error_client_key_missing">క్లయింట్ కీ లేదు</string>
+        <string name="media_activity">ఈ కార్యాచరణ కోసం మీడియా అందించబడింది</string>
+        <string name="audio">ఆడియో</string>
+        <string name="title_support">వినియోగదారుని సేవ</string>
+        <string name="lable_days">రోజులు</string>
+        <string name="day_range">రోజు</string>
+
+        <string name="answer">జవాబు</string>
+
+
+        <string name="rating">రేటింగ్</string>
+        <string name="capture_problem">మీ సమస్యను సంగ్రహించండి</string>
+        <string name="message_submit_feedback">దయచేసి మీ అభిప్రాయాన్ని సమర్పించండి</string>
+
+        <string name="new_feedback">క్రొత్త అభిప్రాయం</string>
+        <string name="error_upload">అప్‌లోడ్ చేయడంలో విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి</string>
+        <string name="new_report">కొత్త నివేదిక</string>
+        <string name="lable_bags">సంచులు</string>
+        <string name="lable_receipt">రశీదులు</string>
+        <string name="lable_chickens">కోడిపిల్లలు</string>
+        <string name="lable_gm">గ్రాము</string>
+        <string name="updated_string">నవీకరించబడింది</string>
+        <string name="times">సమయం</string>
+        <string name="label_success">విజయం</string>
+        <string name="messege_support_submit">దయచేసి ఆప్షన్ ఎంచుకోండి / కామెంట్ నమోదు చేయండి</string>
+        <string name="error_not_supported_video">వీడియో సపోర్ట్ చెయ్యట్లేదు</string>
+        <string name="lable_offline">ఆఫ్లైన్</string>
+        <string name="in_kg">గ్రాములో</string>
+
+        <string name="trimming_message">కత్తిరించడం</string>
+        <string name="compressing_message">కుదిస్తోంది</string>
+        <string name="error_trimming">ట్రిమ్మింగ్ ఫెయిలైయ్యింది</string>
+        <string name="error_while_previewing_video">వీడియో ప్రివ్యూ చూస్తున్నప్పుడు లోపం</string>
+        <string name="fliter">Filter</string>
+
+        //Strings mofified on 19-06-2020
+
+        <string name="label_estimated_arrival">అంచనా రాక </string>
+        <string name="label_item">అంశం </string>
+        <string name="label_dispatched_qty">పంపిన పరిమాణం</string>
+        <string name="title_material_arrival">సరుకు రాక</string>
+        <string name="next_material">తదుపరి సరుకు రాక</string>
+        <string name="next_check_arrival">తదుపరి రాకను తనిఖీ చేయండి</string>
+        <string name="title_dispatch_status">రవాణా స్థితి పంపే స్థితి</string>
+        <string name="label_in_transit">మార్గ మధ్యలో</string>
+        <string name="label_completed">పూర్తయింది</string>
+        <string name="label_items">అంశాలు</string>
+        <string name="dispatch_status">పంపే స్థితి </string>
+        <string name="performance_report">పనితీరు నివేదిక</string>
+        <string name="weather">వాతావరణంశీతోష్ణ స్థితి</string>
+        <string name="Chicks">కోడిపిల్లలు</string>
+        <string name="lifted_quantity">ఎత్తిన పరిమాణం</string>
+        <string name="average_weight">సగటు బరువు</string>
+        <string name="feedintake">దాన తీసుకోవడం</string>
+        <string name="mortality_count">మరణాలు</string>
+        <string name="mean_age">సగటు వయసు</string>
+        <string name="fcr">దాన మార్పిడి నిష్పత్తి</string>
+        <string name="day_gain">రోజు వారి పెరుగుదల</string>
+        <string name="request_id">అభ్యర్థన గుర్తింపు</string>
+        <string name="new_comment">కొత్త అభిప్రాయం</string>
+        <string name="attachements">జోడింపులు</string>
+        <string name="enter_comments">దయచేసి వ్యాఖ్యను నమోదు చేయండి</string>
+        <string name="apply">అనువర్తించు వర్తించు</string>
+        <string name="cancel_all">అన్నీ రద్దు చేయండి</string>
+        <string name="individual_charts">వ్యక్తిగత పటాలు</string>
+        <string name="comparison_charts">పోలిక పటాలు</string>
+        <string name="feed_intake">దాన తీసుకోవడం</string>
+        <string name="shed_ready_activity_label">షెడ్ సిద్ధంగా ఉన్న కార్యాచరణ</string>
+
+
+        <string name="label_precipitation">అవపాతం</string>
+        <string name="label_humidity">తేమ తడి</string>
+        <string name="label_wind">గాలి వాయువు</string>
+        <string name="title_weather">వాతావరణంశీతోష్ణ స్థితి</string>
+        <string name="message_enter_comment">మీ అభిప్రాయాన్ని రాయండిమీ వ్యాఖ్యను టైప్ చేయండి</string>
+        <string name="title_arrived_materials">వచ్చిన వస్తువులు పదార్థాలు</string>
+        <string name="feeds">దాన</string>
+        <string name="arrived_qty">వచ్చిన పరిమాణం</string>
+        <string name="label_new_comparision">కొత్త పోలిక</string>
+        <string name="parameter1">పరిమితి 1</string>
+        <string name="parameter2">పరిమితి 2</string>
+        <string name="message_selected_batches">ఎంచుకోబడ్డాయి  బ్యాచ్ లు</string>
+        <string name="message_selected_batch">ఎంచుకోబడిన బ్యాచ్</string>
+        <string name="selected_batches">దయచేసి బ్యాచ్‌ను ఎంచుకోండి</string>
+        <string name="message_batch_selection">దయచేసి ఇతర బ్యాచ్ ఎంపికను తీసివేయండి</string>
+
+
+        <string name="label_view_chart">పట్టిక పూర్తి స్క్రీన్‌లో చూడండి</string>
+        <string name="label_standard">ప్రమాణము సగటు నాణ్యత</string>
+        <string name="kg">కిలొగ్రామ్</string>
+        <string name="label_k">్రా</string>
+        <string name="grms">గ్రాములు</string>
+        <string name="message_arrival">రాక పరిమాణాన్ని నమోదు చేయండి</string>
+
+        <string name="d_age">రోజుల్లో వయస్సు</string>
+        <string name="batch_selection">బ్యాచ్ ఎంపిక</string>
+
+        <string name="driver_no" >డ్రైవర్ తో మాట్లాడు</string>
+        <string name="feed_transfer_in" >ఫీడ్ బదిలీ</string>
+        <string name="title_farmer" >రైతు మద్దతు</string>
+
+        <string name="message_part1">మా పర్యవేక్షకుడిని లేదా బ్రాంచ్ మేనేజర్‌ను సంప్రదించడం ద్వారా ఈ అనువర్తనాన్ని ఉపయోగించమని మా నమోదిత రైతును మేము స్వాగతిస్తున్నాము</string>
+        <string name="message_part2">ఈ అనువర్తనం మా నమోదిత రైతు ద్వారా మాత్రమే ఉపయోగించబడుతుంది</string>
+        <string name="message_part3">సుగుణ తో అనుబంధించడానికి, దయచేసి మా కస్టమర్ కేర్ నెం. 1800 103 43 43 కు సంప్రదించగలరు</string>
+        <string name="no_batch" >బ్యాచ్‌లు కనుగొనబడలేదు</string>
+        <string name="choose" >ఎంచుకోండి /ఎంచుకొను/ఎన్నుకొను</string>
+        <string name="version">సంస్కరణ</string>
+
+        <string name="label_g">గ్రా</string>
+        <string name="pm">రాత్రి</string>
+        <string name="am">ఉదయం</string>
+
+
+        <string name="message_registered_farmer">ఈ అనువర్తనం మా నమోదిత రైతు ద్వారా మాత్రమే ఉపయోగించబడుతుంది</string>
+        <string name="welcome_label">Welcome to Suguna Foods</string>
+        <string name="label_registered" >Registered Farmers</string>
+        <string name="label_non_registered">Non-Registered Farmers</string>
+        <string name="message_reg" >మా పర్యవేక్షకుడిని లేదా బ్రాంచ్ మేనేజర్‌ను సంప్రదించడం ద్వారా ఈ అనువర్తనాన్ని ఉపయోగించమని మా నమోదిత రైతును మేము స్వాగతిస్తున్నాము.
+    </string>
+        <string name="message_non_reg" translatable="false">సుగుణ తో అనుబంధించడానికి, దయచేసి మా కస్టమర్ కేర్ నెం. 1800 103 43 43 కు సంప్రదించగలరు.</string>
+
+    -->
+
+
+
+
+    <!--Error List-->
+
+    <string-array name="error_list">
+        <item>DefaultString</item>
+        <item>కార్యాచరణ గుర్తింపు లేదు</item>
+        <item>కార్యాచరణ కనుగొనబడలేదు</item>
+        <item>కార్యాచరణ ప్రతిస్పందన టెక్స్ట్ ఖాళీ</item>
+        <item>బ్యాచ్ క్రియారహితం</item>
+        <item>బ్రాంచ్ లేదు</item>
+        <item>క్లయింట్ కీ ఖాళీగా ఉండకూడదు</item>
+        <item>ఇమెయిల్ చిరునామా ఇప్పటికే ఉంది</item>
+        <item>ఇమెయిల్ చిరునామా లేదు</item>
+        <item>en</item>
+        <item>అంతర్గత సర్వర్ లోపం</item>
+        <item>ఫార్మ్ కోడ్ లేదు</item>
+        <item>ఫార్మ్ క్రియారహితం</item>
+        <item>ఫార్మ్ దొరకలేదు</item>
+        <item>ఫైల్ కనుగొనబడలేదు</item>
+        <item>తేదీ నుండి ఖాళీగా ఉంది</item>
+        <item>తేదీ నుండి చెల్లదు</item>
+        <item>[HATCH_DATE]</item>
+        <item>నిష్క్రియాత్మక వినియోగదారు</item>
+        <item>చెల్లని కార్యాచరణ</item>
+        <item>క్లయింట్ కీ చెల్లదు</item>
+        <item>చెల్లని అభ్యర్థన. Hatch date is [HATCH_DATE]</item>
+        <item>చెల్లని లాగిన్ ఆధారాలు</item>
+        <item>చెల్లని OTP సంఖ్య</item>
+        <item>చెల్లని అభ్యర్థన</item>
+        <item>తదుపరి స్థాయి ఆమోదం కోసం కేటాయించడానికి వినియోగదారు కనుగొనబడలేదు</item>
+        <item>చెల్లని వినియోగదారు</item>
+        <item>భాష లేదు</item>
+        <item>లైన్ కోడ్ లేదు</item>
+        <item>స్థానం లేదు</item>
+        <item>Login base</item>
+        <item>మీడియా కనుగొనబడలేదు</item>
+        <item>మీడియా విజయవంతంగా సేవ్ చేయబడింది</item>
+        <item>మీడియా రకం గుర్తింపు  లేదు</item>
+        <item>మొబైల్ సంఖ్య ఇప్పటికే ఉంది</item>
+        <item>మొబైల్ నంబర్ లేదు</item>
+        <item>ఇచ్చిన ఫార్మ్ కోడ్‌తో మొబైల్ నంబర్ నమోదు కాలేదు</item>
+        <item>వినియోగదారు పేరు లేదు</item>
+        <item>OTP లేదు</item>
+        <item>OTP మీ రిజిస్టర్డ్ మొబైల్ నంబర్‌కు విజయవంతంగా పంపబడింది</item>
+        <item>OTP సంక్షిప్త సందేశం</item>
+        <item>[OTP_VALUE]</item>
+        <item>paging</item>
+        <item>గుర్తింపు అక్షరము /సాంకేతిక పదము లేదు</item>
+        <item>గుర్తింపు అక్షరము విజయవంతంగా సేవ్ చేయబడింది</item>
+        <item>ముందుకువెళ్లు  నోటిఫికేషన్ సందేశం లేదు</item>
+        <item>ముందుకువెళ్లు నోటిఫికేషన్ శీర్షిక లేదు</item>
+        <item>ముందుకువెళ్లు టోకెన్ ఖాళీగా ఉంది</item>
+        <item>ముందుకువెళ్లు టోకెన్ కీ జోడించబడింది</item>
+        <item>ముందుకువెళ్లు టోకెన్ కీ లేదు</item>
+        <item>రికార్డ్ విజయవంతంగా తొలగించబడింది</item>
+        <item>రికార్డులు కనుగొనబడలేదు</item>
+        <item>ప్రాంతం క్రియారహితం</item>
+        <item>ప్రాంతం లేదు</item>
+        <item>విలువ</item>
+        <item>రిపోజిటరీ వర్గం లేదు</item>
+        <item>రిపోజిటరీ ఐడి లేదు</item>
+        <item>పాత్ర ఖాళీగా ఉంది</item>
+        <item>పాత్ర లేదు</item>
+        <item>పాత్ర రకం ఖాళీగా ఉంది</item>
+        <item>భద్రతా కారణాల దృష్ట్యా అభ్యర్థన తిరస్కరించబడింది</item>
+        <item>మద్దతు వర్గం లేదు</item>
+        <item>మద్దతు క్రియారహితం</item>
+        <item>మద్దతు ప్రతిస్పందన విజయవంతంగా సేవ్ చేయబడింది</item>
+        <item>ఈ రోజు వరకు ఖాళీగా ఉంది</item>
+        <item>అధికార పూర్వకముగా అనుమతించబడని /న్యాయ విరుద్ధమైన</item>
+        <item>అప్‌లోడ్ చేసిన మీడియా</item>
+        <item>వినియోగదారు కోడ్ ఇప్పటికే ఉంది</item>
+        <item>వినియోగదారు కోడ్ లేదు</item>
+        <item>దీన్ని యాక్సెస్ చేయడానికి వినియోగదారుకు అనుమతి లేదు</item>
+        <item>వినియోగదారు లేదు</item>
+        <item>వినియోగదారుడు కనపడలేదు</item>
+        <item>ఇమెయిల్ విజయవంతంగా పంపబడింది</item>
+        <item>పంపిన ఇమెయిల్ విఫలమైంది</item>
+        <item>కార్యాచరణ ప్రతిస్పందన విజయవంతంగా సేవ్ చేయబడింది</item>
+        <item>పంపిన నోటిఫికేషన్ విఫలమైంది</item>
+        <item>కార్యాచరణ ప్రతిస్పందన విజయవంతంగా సేవ్ చేయబడింది</item>
+        <item>కార్యాచరణ విజయవంతంగా సృష్టించబడింది</item>
+        <item>రిపోజిటరీ విజయవంతంగా సేవ్ చేయబడింది</item>
+        <item>రిపోజిటరీ మీడియా విజయవంతంగా తొలగించబడింది</item>
+        <item>వినియోగదారు విజయవంతంగా సేవ్ చేయబడ్డారు</item>
+        <item>రిపోజిటరీ క్రియారహితం</item>
+        <item>రిపోజిటరీ వర్గం విజయవంతంగా సేవ్ చేయబడింది</item>
+        <item>రిపోజిటరీ వర్గం పేరు ఇప్పటికే ఉంది</item>
+        <item>కార్యాచరణ విభాగం పేరు ఇప్పటికే ఉంది</item>
+        <item>కార్యాచరణ విభాగం విజయవంతంగా సేవ్ చేయబడింది</item>
+        <item>కార్యాచరణ విభాగం లేదు</item>
+        <item>బ్రాంచ్ గుర్తింపు లేదు</item>
+        <item>గుర్తింపు లేదు</item>
+        <item>చిక్ వివరాలు కనుగొనబడలేదు</item>
+        <item>ఫీడ్ వివరాలు కనుగొనబడలేదు</item>
+        <item>ఔషధం/మందు వివరాలు కనుగొనబడలేదు</item>
+        <item>హాచ్ తేదీ లేదు</item>
+        <item>జట్టు/బ్యాచ్ మాస్టర్ కనుగొనబడలేదు</item>
+        <item>అభిప్రాయం వర్గం లేదు</item>
+        <item>లెడ్జర్ గుర్తింపు లేదు</item>
+        <item>రీజియన్ గుర్తింపు లేదు</item>
+        <item>డివిజన్ లేదు</item>
+        <item>బ్రాంచ్ పేరు లేదు</item>
+        <item>నెల నుండి తప్పిపోయింది</item>
+        <item>నెలకు లేదు</item>
+        <item>బ్రాయిలర్ బ్రాంచ్ కనుగొనబడలేదు</item>
+        <item>బుతువు/సీజన్  కనుగొనబడలేదు</item>
+        <item>ప్రాంతం పేరు లేదు</item>
+        <item>ప్రాంతం కోడ్ లేదు</item>
+        <item>అక్షాంశం లేదు</item>
+        <item>రేఖాంశం లేదు</item>
+        <item>అక్షాంశం చెల్లుబాటు అయ్యే ఫార్మాట్ కాదు</item>
+        <item>రేఖాంశం చెల్లుబాటు అయ్యే ఫార్మాట్ కాదు</item>
+        <item>ప్రాంత కోడ్ ఇప్పటికే ఉంది</item>
+        <item>ప్రాంతం విజయవంతంగా జోడించబడింది</item>
+        <item>ప్రాంతం విజయవంతంగా నవీకరించబడింది</item>
+        <item>బ్రాంచ్ కోడ్ లేదు</item>
+        <item>వ్యవసాయ పేరు గ్రామం లేదు</item>
+        <item>చిరునామా లైన్ 1 లేదు</item>
+        <item>చిరునామా లైన్ 2 లేదు</item>
+        <item>గ్రామం తప్పిపోయింది</item>
+        <item>పట్టణం లేదా నగరం తప్పిపోయింది</item>
+        <item>తాలూకా తప్పిపోయింది</item>
+        <item>జిల్లా లేదు</item>
+        <item>రాష్ట్రం లేదు</item>
+        <item>పిన్ కోడ్ లేదు</item>
+        <item>మొబైల్ నంబర్ లేదు</item>
+        <item>పెంపకం ప్రాంతం లేదు</item>
+        <item>WaterSource is Missing</item>
+        <item>కాఠిన్యం లేదు</item>
+        <item>Ph విలువ లేదు</item>
+        <item>రోడ్ సౌకర్యం లేదు</item>
+        <item>ఫార్మ్ మేనేజ్డ్ బై మిస్సింగ్</item>
+        <item>షెడ్ రకం లేదు</item>
+        <item>పైకప్పు రకం లేదు</item>
+        <item>నేల రకం లేదు</item>
+        <item>పందిరి డైరెక్షన్ లేదు</item>
+        <item>లైటింగ్ మూలం లేదు</item>
+        <item>పైప్‌లైన్ లేదు</item>
+        <item>బ్రాయిలర్ ఫామ్ విజయవంతంగా జోడించబడింది</item>
+        <item>బ్రాయిలర్ ఫామ్ విజయవంతంగా నవీకరించబడింది</item>
+        <item>బ్యాచ్ విజయవంతంగా జోడించబడింది</item>
+        <item>బ్యాచ్ విజయవంతంగా నవీకరించబడింది</item>
+        <item>బ్యాచ్ జోడించు లేదా నవీకరణ విఫలమైంది</item>
+        <item>కోడి పిల్ల వివరాలు విజయవంతంగా జోడించబడ్డాయి</item>
+        <item>కోడి పిల్ల వివరాలు విజయవంతంగా నవీకరించబడ్డాయి</item>
+        <item>కోడి పిల్ల  వివరాలు జోడించండి లేదా నవీకరించడం విఫలమైంది</item>
+        <item>దాణా వివరాలు జోడించు లేదా నవీకరణ విఫలమైంది</item>
+        <item>Feed Detail Updated Successfull</item>
+        <item>దాణా వివరాలు జోడించు లేదా నవీకరణ విఫలమైంది</item>
+        <item>బ్రాయిలర్ ఫామ్ జోడించు లేదా నవీకరణ విఫలమైంది</item>
+        <item>ప్రాంతం జోడించు లేదా నవీకరణ విఫలమైంది</item>
+        <item>మెడిసిన్ వివరాలు విజయవంతంగా జోడించబడ్డాయి</item>
+        <item>మెడిసిన్ వివరాలు విజయవంతంగా నవీకరించబడ్డాయి</item>
+        <item>మెడిసిన్ వివరాలు జోడించండి లేదా నవీకరించడం విఫలమైంది</item>
+        <item>బ్రాయిలర్ శాఖలు విజయవంతంగా జోడించబడ్డాయి</item>
+        <item>బ్రాయిలర్ శాఖలు విజయవంతంగా నవీకరించబడ్డాయి</item>
+        <item>బ్రాయిలర్ శాఖలు జోడించడం లేదా నవీకరించడం విఫలమైంది</item>
+        <item>సీజన్ విజయవంతంగా జోడించబడింది</item>
+        <item>సీజన్ విజయవంతంగా నవీకరించబడింది</item>
+        <item>సీజన్ జోడించు లేదా నవీకరణ విఫలమైంది</item>
+        <item>బ్రాంచ్ చురుకుగా ఉంది</item>
+        <item>మద్దతు పేరు ఇప్పటికే ఉంది</item>
+        <item>మద్దతు వర్గం విజయవంతంగా సేవ్ చేయబడింది</item>
+        <item>మద్దతు గుర్తింపు లేదు</item>
+        <item>ప్రశ్న లేదు</item>
+        <item>మద్దతు ప్రశ్న విజయవంతంగా సేవ్ చేయబడింది</item>
+        <item>మద్దతు ప్రశ్న గుర్తింపు  లేదు</item>
+        <item>శీర్షిక/పేరు లేదు</item>
+        <item>విషయము లేదు</item>
+        <item>రిపోజిటరీ కంటెంట్ విజయవంతంగా సేవ్ చేయబడింది</item>
+        <item>కార్యాచరణ మీడియా విజయవంతంగా తొలగించబడింది</item>
+    </string-array>
+
+
+</resources>

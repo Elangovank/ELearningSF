@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Base_Match_Wrap"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/medicineLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:background="@drawable/media_selector_view_background"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/medicineImageView"
+            android:layout_width="@dimen/image_size"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_height="@dimen/image_size"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:src="@drawable/ic_antibiotics" />
+
+
+
+        <TextView
+            android:id="@+id/medicineNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_repo_text_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="@dimen/margin_large"
+            android:ellipsize="end"
+            android:fontFamily="@font/opensans_regular"
+           android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingBottom="5dp"
+            android:textSize="@dimen/font_size_small" />
+    </LinearLayout>
+
+
+</LinearLayout>

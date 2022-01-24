@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/Base_Match_Wrap"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            style="@style/Base_Match_Wrap"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_large">
+
+            <TextView
+                android:id="@+id/newComparisionTextView"
+                style="@style/Base_Wrap"
+                android:fontFamily="@font/worksans_regular"
+                android:textColor="@color/text_gray_light"
+                android:textSize="@dimen/font_size_medium" />
+
+            <ImageView
+                android:id="@+id/closeImageView"
+                style="@style/Base_Wrap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_close" />
+        </RelativeLayout>
+
+        <LinearLayout
+            style="@style/Base_Match_Wrap"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_xxx_large"
+            android:orientation="vertical">
+
+            <TextView
+               android:id="@+id/parameter1TextView"
+                style="@style/Base_Wrap" />
+<Spinner
+
+
+    android:id="@+id/parameter1Spinner"
+    android:layout_marginTop="@dimen/margin_medium"
+    style="@style/Base_Match_Wrap"
+    android:fontFamily="@font/worksans_medium"
+    android:textColor="@color/day_range"
+    android:textSize="@dimen/font_size_small"
+    />
+
+
+
+            <TextView
+                android:id="@+id/parameter2TextView"
+                style="@style/Base_Wrap"
+                android:layout_marginTop="@dimen/margin_medium" />
+
+            <Spinner
+                android:id="@+id/parameter2Spinner"
+                android:layout_marginTop="@dimen/margin_medium"
+                style="@style/Base_Match_Wrap"
+                android:fontFamily="@font/worksans_medium"
+                android:textColor="@color/day_range"
+                android:textSize="@dimen/font_size_small"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x_large"
+            android:layout_marginBottom="@dimen/margin_x_large"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cancelTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_white"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/worksans_semibold"
+                android:gravity="center"
+                android:paddingTop="@dimen/padding_large"
+                android:paddingBottom="@dimen/padding_large"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/font_size_small" />
+
+            <TextView
+                android:id="@+id/confirmTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center"
+                android:paddingTop="@dimen/padding_large"
+                android:paddingBottom="@dimen/padding_large"
+                android:textColor="@color/white_shade_2"
+                android:textSize="@dimen/font_size_small" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

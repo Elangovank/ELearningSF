@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_large"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/headingTextView"
+        style="@style/Base_Wrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/worksans_regular"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_small" />
+    <RelativeLayout
+        style="@style/Base_Match_Wrap"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/leftSideView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginBottom="-1dp"
+            android:layout_weight="0"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <com.gm.utilities.VerticalTextView
+                android:id="@+id/leftLableNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:rotation="-180"
+                android:textColor="@color/black"
+                android:text="Mortality"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textAllCaps="true"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/leftScroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/margin_2x_large"
+                android:padding="@dimen/margin_small"
+                android:src="@drawable/scroll_previous"
+                android:visibility="invisible"
+
+                />
+        </LinearLayout>
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChartView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="@dimen/margin_upper_medium"
+            android:layout_marginRight="-3dp"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_toLeftOf="@+id/rightSideView"
+            android:layout_toRightOf="@+id/leftSideView"
+            android:layout_above="@+id/legendLayout"/>
+
+        <LinearLayout
+            android:id="@+id/legendLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                />
+
+            <LinearLayout
+                android:id="@+id/chartLabelLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chartTypeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/rightSideView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-1dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:layout_weight="0"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <com.gm.utilities.VerticalTextView
+                android:id="@+id/rightLableNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:rotation="-180"
+                android:text="Mortality"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/rightScroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/margin_2x_large"
+                android:padding="@dimen/margin_small"
+                android:src="@drawable/scroll_next"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+<!--    <LinearLayout
+        style="@style/Base_Match_Wrap"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/leftScroll"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:layout_gravity="bottom"
+            style="@style/Base_Wrap"
+            android:padding="@dimen/margin_medium"
+            android:src="@drawable/scroll_previous" />
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChartView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/margin_upper_medium"
+            android:layout_marginBottom="@dimen/margin_x_large" />
+
+
+        <TextView
+            android:id="@+id/rightScroll"
+            android:layout_gravity="bottom"
+            style="@style/Base_Wrap"
+            android:drawableStart="@drawable/scroll_next"
+            android:padding="@dimen/margin_medium"
+
+            />
+    </LinearLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        style="@style/Base_Match"
+        android:background="@drawable/splash_bg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/changeLanguage"
+            style="@style/Base_Wrap"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_medium" />
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            style="@style/Base_Wrap"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/login_logo" />
+
+        <LinearLayout
+            style="@style/Base_Match_Wrap"
+            android:layout_below="@+id/logoImageView"
+
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_xxx_large"
+            android:background="@drawable/login_bg"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/Base_Match"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    style="@style/Base_Wrap"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_upper_medium"
+                    android:src="@drawable/ic_login_logo" />
+
+                <TextView
+                    android:id="@+id/loginTextView"
+                    style="@style/Base_Wrap"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_upper_medium"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/font_size_large" />
+
+                <LinearLayout
+                    style="@style/Base_Match_Wrap"
+                    android:layout_margin="@dimen/margin_medium"
+                    android:background="@drawable/linearlayout_background"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_x_large">
+
+                    <EditText
+                        android:id="@+id/farmerCodeEditText"
+                        style="@style/Base_Match_Wrap"
+                        android:drawableLeft="@drawable/ic_userid"
+                        android:drawablePadding="@dimen/padding_medium"
+                        android:drawableTint="@color/text_color"
+                        android:fontFamily="@font/worksans_regular"
+                        android:inputType="textCapCharacters"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/padding_medium"
+                        android:textSize="@dimen/font_size_small" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Base_Match_Wrap"
+                        android:background="@color/white"
+                        app:hintEnabled="false"
+                        app:passwordToggleEnabled="true">
+
+                    <EditText
+                        android:id="@+id/otpEditText"
+                        style="@style/Base_Match_Wrap"
+                        android:layout_marginTop="@dimen/margin_xx_large"
+                        android:drawableStart="@drawable/ic_password"
+                        android:drawablePadding="@dimen/padding_medium"
+
+                        android:drawableTint="@color/text_color"
+                        android:fontFamily="@font/worksans_regular"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/padding_medium"
+                        android:textSize="@dimen/font_size_small" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <LinearLayout
+                        android:id="@+id/remembermeLayout"
+                        style="@style/Base_Match_Wrap"
+                        android:layout_gravity="end"
+                        android:gravity="end"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/ischecked"
+                            style="@style/Base_Wrap"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/unchecking_square" />
+
+                        <ImageView
+                            android:id="@+id/checked"
+                            style="@style/Base_Wrap"
+                            android:layout_gravity="center"
+                            android:src="@drawable/checking_square"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/rememberTextView"
+                            style="@style/Base_Wrap"
+                            android:layout_margin="@dimen/margin_medium" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/Base_Match_Wrap"
+                        android:layout_marginTop="@dimen/margin_large"
+                         android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <com.gmcoreui.controllers.ui.GMButton
+                            android:id="@+id/resendOtpButton"
+                            style="@style/Base_Match_Wrap"
+                            android:layout_marginRight="@dimen/margin_xx_large"
+                            android:layout_weight="1"
+                            android:background="@color/transperent"
+                            android:textAllCaps="false"
+                            android:textColor="@color/text_color"
+                            android:textSize="@dimen/font_size_small" />
+
+                        <com.gmcoreui.controllers.ui.GMButton
+                            android:id="@+id/submitButton"
+                            style="@style/Base_Match_Wrap"
+                            android:layout_weight="1"
+                            android:background="@drawable/button_background"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_size_small" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/forgotPasssword"
+                        style="@style/Base_Wrap"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="end"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/font_size_small"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

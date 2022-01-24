@@ -1,0 +1,48 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.gm.controllers.VideoTrimmerView
+        android:id="@+id/videoTrimmerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/actionLayout"/>
+
+
+    <LinearLayout
+        android:id="@+id/actionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin_small"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/cancelTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="@dimen/padding_large"
+            android:paddingBottom="@dimen/padding_large"
+            android:background="@color/red_shade_1"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/margin_small"
+           />
+
+        <TextView
+            android:id="@+id/okTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_marginStart="@dimen/margin_small"
+            android:textColor="@color/white"
+            android:paddingTop="@dimen/padding_large"
+            android:paddingBottom="@dimen/padding_large"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</RelativeLayout>

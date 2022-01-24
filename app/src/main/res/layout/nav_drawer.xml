@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Base_Match"
+    android:background="@drawable/splash_bg">
+
+    <LinearLayout
+        style="@style/Base_Match"
+        android:background="#59000000">
+
+        <ScrollView
+            style="@style/Base_Match"
+            android:fadeScrollbars="true"
+            android:fillViewport="true"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_large">
+
+            <LinearLayout
+                style="@style/Base_Wrap"
+                android:layout_margin="@dimen/margin_large"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/padding_scrollbar_bottom"
+                android:paddingBottom="@dimen/padding_scrollbar_bottom">
+
+                <LinearLayout
+                    android:id="@+id/userLayout"
+                    style="@style/Base_Wrap"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/userName"
+                        style="@style/Base_Wrap"
+                        android:fontFamily="@font/worksans_medium"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_size_large"
+                        tools:text="Raja Sekaran V" />
+
+                    <TextView
+                        android:id="@+id/mobileNumber"
+                        style="@style/Base_Wrap"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_marginBottom="@dimen/margin_small"
+                        android:fontFamily="@font/worksans_regular"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_size_medium"
+                        tools:text="abc123xyz@xyz.com" />
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_x_large"
+                    android:layout_marginBottom="@dimen/margin_x_large">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <TextView
+                    android:id="@+id/version"
+                    style="@style/Base_Wrap"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="@dimen/margin_large"
+                    android:fontFamily="@font/worksans_regular"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_very_small"
+                    tools:text="version"/>
+
+
+                <TextView
+                    android:id="@+id/close"
+                    style="@style/Base_Wrap"
+                    android:drawableTop="@drawable/ic_sidemenu_close"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:drawablePadding="@dimen/padding_large"
+                    android:fontFamily="@font/worksans_regular"
+                    android:layout_marginStart="@dimen/margin_2x_large"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_medium" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

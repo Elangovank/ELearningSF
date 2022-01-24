@@ -1,0 +1,508 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+   <string name="chaoose_your_language">Choose your Language</string>
+    <string name="submit">Submit</string>
+    <string name="language_updated">Language Updated</string>
+    <string name="update_dialog_title" translatable="false">New update available!</string>
+    <string name="update_dialog_message" translatable="false">There is newer version of this application is available, click Update to upgrade now?</string>
+    <string name="update" translatable="false">Update</string>
+    <string name="force_update_dialog_message" translatable="false">Please, update the app to new version to continue.</string>
+    <string name="no_thanks" translatable="false">No Thanks</string>
+    <string name="skip" translatable="false">Skip</string>
+    <string name="app_name" translatable="false">Suguna</string>
+    <string name="activity">Activity</string>
+    <string name="repository">Repository</string>
+    <string name="report">Report</string>
+    <string name="feedback">Feedback</string>
+    <string name="support">Farmer Support</string>
+<!--    <string name="add_item">Add media</string>
+    <string name="remove_item">Remove item</string>
+    <string name="morph_item_radius" translatable="false">Morph Item Radius:</string>
+    <string name="morph_corner_radius" translatable="false">Morph Corner Radius:</string>
+    <string name="morph_vertical_offset" translatable="false">Morph Vertical Offset:</string>
+    <string name="value_dp" translatable="false">%ddp</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_Feedback">Feedback</string>
+    <string name="title_daily_report">Daily Report</string>
+    <string name="label_language">Language</string>
+    <string name="label_download">Download</string>
+    <string name="label_sign_out">Sign out</string>
+    <string name="title_support">Customer Support</string>
+    <string name="fliter">Filter</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="chick_age_format">%s day</string>
+    <string name="chick_ages_format">%s days</string>
+    <string name="app_name" translatable="false">Suguna</string>
+    <string name="ok">Ok</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="message_camera_permission">Please enable camera access to take picture.</string>
+    <string name="error">Error</string>
+    <string name="label_choose">Choose</string>
+    <string name="label_select_picture">Select Picture</string>
+    <string name="login">Login</string>
+    <string name="farm_code">Farm Code</string>
+    <string name="farm_id">Farm Id</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="change_language">Change Language ?</string>
+    <string name="otp">OTP</string>
+    <string name="password">Password</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="user_mobile_number">User Mobile No</string>
+    <string name="creatre_password">Create Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="submit">Submit</string>
+    <string name="password_creation">Password Creation</string>
+    <string name="validate_farm_code">Validate farm code</string>
+    <string name="chaoose_your_language">Choose your Language</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="message_login">Logging in...</string>
+    <string name="close">Close</string>
+    <string name="no_item_found">No items to display</string>
+    <string name="no_questions_found">No questions to display</string>
+    <string name="no_record_found">No record found</string>
+    <string name="no_media_found">No media found</string>
+    <string name="pending">Pending</string>
+    <string name="completed">Completed</string>
+    <string name="loading">Loading...</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_its_correct">No, its incorrect</string>
+    <string name="media">Media</string>
+    <string name="delete">Delete media</string>
+    <string name="upload">Upload</string>
+    <string name="record_video">Record Video</string>
+    <string name="capture_photo">Capture Photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="media_recorder">Media Recorder</string>
+    <string name="record_audio">Record Audio</string>
+    <string name="record_again">Record again</string>
+    <string name="uplaod_content">Upload your work done through the media</string>
+    <string name="reason">Reason</string>
+    <string name="label_next">Next</string>
+    <string name="chick_bird">Chick / Bird</string>
+    <string name="support_center">Support</string>
+    <string name="label_date">Date</string>
+    <string name="label_chick_age">Chick/Bird age</string>
+    <string name="label_submit">Submit</string>
+    <string name="confirm_submission">Confirm your submission ? </string>
+    <string name="label_confirm">Confirm</string>
+    <string name="label_start">Start</string>
+    <string name="label_re_start">Restart</string>
+    <string name="comment">Comment</string>
+    <string name="select_image">Image</string>
+    <string name="select_video">Video</string>
+    <string name="select_audio">Audio</string>
+    <string name="select_files">Select Files</string>
+    <string name="feed_stock">Feed Stock</string>
+    <string name="reciept">Feed Receipt</string>
+    <string name="feed_consumption">Feed Consumption</string>
+    <string name="feed_transfer">Feed Transfer Out</string>
+    <string name="open_bags">Open Bags</string>
+    <string name="mortality">Mortality</string>
+    <string name="body_weight">Body Weight</string>
+    <string name="no_of_bags">No. of bags</string>
+    <string name="no_of_receipt">No. of receipt</string>
+    <string name="no_of_hen">No. of Chick/Bird</string>
+    <string name="in_kg">In gram</string>
+    <string name="activity">Activity</string>
+    <string name="repository">Repository</string>
+    <string name="report">Report</string>
+    <string name="feedback">Feedback</string>
+    <string name="support">Support</string>
+    <string name="today_activity">Today\'s Activity</string>
+    <string name="video">Video</string>
+    <string name="photos">Photos</string>
+    <string name="audio">Audio</string>
+    <string name="chick_type">Chick / Bird</string>
+    <string name="feed">Feed</string>
+    <string name="medicine">Medicine</string>
+    <string name="antibiotics">Antibiotics</string>
+    <string name="title_repository">Repository</string>
+    <string name="title_activity">Activity</string>
+    <string name="feed_back_successfully">Your feedback has been submited successfully</string>
+    <string name="language_updated">Language Updated</string>
+   &lt;!&ndash; <string name="search_hint">Search here for medicine related issues</string>&ndash;&gt;
+    <string name="search_hint">Search</string>
+
+    <string name="feed_back_updated">Your daily report has been submitted successfully</string>
+    <string name="record_audio_error">Please record the audio to proceed</string>
+    <string name="upload_error_message">Please select atleast one item to upload</string>
+    <string name="missing_data">Missing Data</string>
+    <string name="invalid_user">Invalid User</string>
+    <string name="token_missing">Token missing</string>
+    <string name="enter_farm_code">Enter farm code</string>
+    <string name="enter_otp">Enter otp </string>
+    <string name="unsupported_track">Unsupported track</string>
+    <string name="unread">Un Read</string>
+    <string name="Notifications">Notifications</string>
+    <string name="downloading">Downloading...</string>
+    <string name="age_days">Chick/Bird Age : </string>
+    <string name="filtered_date">Filtered Date : </string>
+    <string name="or">( or )</string>
+    <string name="default_activity">Default Activity</string>
+    <string name="submittedSucessfully">Submitted Successfully</string>
+    <string name="under_develop">Feature under development</string>
+
+
+    &lt;!&ndash;New Strings&ndash;&gt;
+    <string name="label_all">All</string>
+    <string name="label_open">Open</string>
+    <string name="label_resolved">Resolved</string>
+    <string name="media_uploded">Media uploaded by you</string>
+    <string name="questions_raised">Questions raised by you</string>
+    <string name="solution">solution</string>
+    <string name="title_raised_request">Raised requests</string>
+    <string name="marketting">Marketing</string>
+    <string name="management">Management</string>
+    <string name="others">Others</string>
+    <string name="chick_days_error">Incorrect chick days</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="activity_progresss">Activity Progress</string>
+    <string name="history">History</string>
+    <string name="standard">Standard</string>
+    <string name="special_activity">Speical Activity</string>
+    <string name="chick_days">Chick Age</string>
+    <string name="regular_activity">Regular Activity</string>
+    <string name="day_range">Day</string>
+    <string name="incomplete">Incomplete</string>
+    <string name="upload_media">Upload Photo/Video/Audio</string>
+    <string name="media_provided">Media provided for this activity</string>
+    <string name="activity_status">Activity Status</string>
+    <string name="error_server">Failed to connect to /199.101.186.56:8118</string>
+    <string name="document">Document</string>
+
+    <string name="error_password_length_min">Must be at least %s characters</string>
+    <string name="error_password_length_max">Should not exceed more than %s characters</string>
+    <string name="warning">Warning</string>
+    <string name="error_in_permission">Permissions denied.</string>
+    <string name="error_field_required">This field is required.</string>
+    <string name="error_network_connection">Please check internet connection.</string>
+    <string name="error_client_key_missing">Client key is missing</string>
+    <string name="error_password_mismatch">Password mismatch</string>
+    <string name="error_daily_report">Please fill daily report</string>
+    <string name="media_activity">Media provided for this acivity </string>
+
+
+    &lt;!&ndash;New Strings3-5-19&ndash;&gt;
+    <string name="lable_days">days</string>
+    <string name="message_enter">Please Enter the Answer</string>
+    <string name="message_upload_media">You Can Upload Only 5 Media</string>
+    <string name="error_invalid">Invalid</string>
+    <string name="rating">Rating</string>
+    <string name="capture_problem">Capture your problem</string>
+    <string name="message_submit_feedback">Please submit your feedback</string>
+    <string name="messege_support_submit">Please select the option/Enter the comment</string>
+    <string name="day_label">DAY %s</string>
+
+    <string name="answer">Answer</string>
+
+    <string name="error_upload">Failed to upload,Please try again!</string>
+    <string name="new_report">New report</string>
+    <string name="new_feedback">New feedback</string>
+    <string name="lable_bags">bags</string>
+    <string name="lable_receipt">receipts</string>
+    <string name="lable_chickens">chickens</string>
+    <string name="lable_gm">gram</string>
+    <string name="updated_string">updated</string>
+    <string name="times">times</string>
+    <string name="label_success">Success</string>
+    <string name="error_not_supported_video">Video Not Supported.</string>
+
+    <string name="lable_offline">Offline</string>
+
+    <string name="short_seconds" translatable="false">sec</string>
+
+    <string name="trimming_message">trimming...</string>
+    <string name="compressing_message">Compressing...</string>
+    <string name="error_trimming">failed trimming</string>
+    <string name="error_while_previewing_video">error while previewing video</string>
+
+
+    <string name="update_dialog_title" translatable="false">New update available!</string>
+    <string name="update_dialog_message" translatable="false">There is newer version of this application is available, click Update to upgrade now?</string>
+    <string name="skip" translatable="false">Skip</string>
+    <string name="update" translatable="false">Update</string>
+    <string name="force_update_dialog_message" translatable="false">Please, update the app to new version to continue.</string>
+    <string name="no_thanks" translatable="false">No Thanks</string>
+
+    <string name="alter_message" translatable="false">Are you sure want to delete the media</string>
+
+
+
+
+
+&lt;!&ndash;    Suguna phase- 2 string &ndash;&gt;
+
+    <string name="label_estimated_arrival">Estimated arrival</string>
+    <string name="label_item">Item</string>
+    <string name="label_dispatched_qty">Dispatched Qty</string>
+    <string name="title_material_arrival">Material arrivals</string>
+    <string name="next_material">Next Material arrival on</string>
+    <string name="next_check_arrival">Next Check arrival on</string>
+    <string name="title_dispatch_status">Dispatch status</string>
+    <string name="label_in_transit">IN-TRANSIT</string>
+    <string name="label_completed">COMPLETED</string>
+    <string name="label_items">items</string>
+    <string name="dispatch_status">Dispatch Status</string>
+    <string name="performance_report">Performance Report</string>
+    <string name="weather">Weather</string>
+    <string name="Chicks">Chicks</string>
+    <string name="lifted_quantity">Lifted.qty</string>
+    <string name="average_weight">Avg. weight</string>
+    <string name="feedintake">Feed intake</string>
+    <string name="mortality_count">Mortality</string>
+    <string name="mean_age">Mean age</string>
+    <string name="fcr">FCR</string>
+    <string name="day_gain">Day Gain</string>
+    <string name="request_id">Request ID</string>
+    <string name="new_comment">New comment</string>
+    <string name="attachements">Attachements</string>
+    <string name="enter_comments">Please enter the comment</string>
+    <string name="apply">Apply</string>
+    <string name="cancel_all">Cancel All</string>
+    <string name="individual_charts">Individual charts</string>
+    <string name="comparison_charts">Comparison charts</string>
+    <string name="feed_intake">Feed intake</string>
+    <string name="shed_ready_activity_label">Shed Ready Activity</string>
+
+
+    <string name="label_precipitation">Precipitation</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="label_wind">Wind</string>
+    <string name="title_weather" >Weather</string>
+    <string name="message_enter_comment" >Type your comment</string>
+    <string name="title_arrived_materials">Arrived materials</string>
+    <string name="feeds">Feeds</string>
+    <string name="arrived_qty">Arrived Qty</string>
+    <string name="label_new_comparision">New comparison</string>
+    <string name="parameter1">Parameter 1</string>
+    <string name="parameter2">Parameter 2</string>
+    <string name="message_selected_batches">Batches Selected</string>
+    <string name="message_selected_batch">Batch Selected</string>
+    <string name="selected_batches">Please select the batch</string>
+    <string name="message_batch_selection">Please deselect any other batch</string>
+
+    <string name="label_view_chart">View chart in full screen</string>
+    <string name="label_standard">Standard</string>
+
+    <string name="kg">kg</string>
+    <string name="label_k">K</string>
+    <string name="grms">Grms</string>
+    <string name="message_arrival">Enter the Arrival Quentity</string>
+
+    <string name="d_age">Age in days</string>
+    <string name="batch_selection">Batch selection</string>
+    <string name="driver_no" translatable="false">call driver</string>
+    <string name="feed_transfer_in" translatable="false">Feed Transfer In</string>
+    <string name="title_farmer" translatable="false">Farmer Support</string>
+    <string name="message_part1">We welcome our registered Farmer to use this app by contacting our Supervisor or Branch Manager</string>
+    <string name="message_part2">This app can be used only by our registered Farmer</string>
+    <string name="message_part3">To associate with Suguna,please contact our customer care no. 1800 103 43 43</string>
+    <string name="no_batch" translatable="false">no batches found</string>
+    <string name="choose" translatable="false">Choose</string>
+    <string name="version">version</string>
+    <string name="label_g">g</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+
+
+
+    <string name="message_registered_farmer" translatable="false">Only our registered farmers can use this app</string>
+    <string name="welcome_label" translatable="false">Welcome to Suguna Foods</string>
+    <string name="label_registered" translatable="false">Registered Farmers</string>
+    <string name="label_non_registered" translatable="false">Non-Registered Farmers</string>
+    <string name="message_reg" translatable="false">Registered farmers can use this app by contacting our Supervisor or Branch manager</string>
+    <string name="message_non_reg" translatable="false">Interested to associate with Suguna,please contact our customer care no.1800 103 43 43 </string>
+
+
+
+    &lt;!&ndash;Phase3 string &ndash;&gt;
+    <string name="label_select_reason" translatable="false">Select reason</string>
+    <string name="label_downloads" translatable="false">Downloads</string>
+    <string name="label_age" translatable="false">Age</string>
+    <string name="label_bird_stock" translatable="false">Bird stock</string>
+    <string name="label_stdfeed" translatable="false">Std feed Gms/Bird</string>
+    <string name="offlice_message" translatable="false">Record saved Successfully</string>-->
+
+
+
+
+
+    <!--Error List-->
+
+    <string-array name="error_list" >
+        <item>DefaultString</item>
+        <item>Activity Id Missing</item>
+        <item>Activity not found</item>
+        <item>Activity Response Text Empty</item>
+        <item>Batch inactive</item>
+        <item>Branch missing</item>
+        <item>Client key cant be empty</item>
+        <item>Email address already exist</item>
+        <item>Email address is missing</item>
+        <item>en</item>
+        <item>Internal Server Error</item>
+        <item>Farm code is missing</item>
+        <item>Farm inactive</item>
+        <item>Farm not found</item>
+        <item>File not found</item>
+        <item>From date is empty</item>
+        <item>Invalid from date</item>
+        <item>[HATCH_DATE]</item>
+        <item>Inactive user</item>
+        <item>Invalid Activity</item>
+        <item>Invalid client key</item>
+        <item>Invalid request. Hatch date is [HATCH_DATE]</item>
+        <item>Invalid login credential</item>
+        <item>Invalid OTP number</item>
+        <item>Invalid Request</item>
+        <item>User not found to assign for next level of approval</item>
+        <item>Invalid User</item>
+        <item>Language Missing</item>
+        <item>Line Code missing</item>
+        <item>Location Missing</item>
+        <item>Login base</item>
+        <item>Media Not Found</item>
+        <item>Media saved successfully</item>
+        <item>Media Type Id Missing</item>
+        <item>Mobile number already exist</item>
+        <item>Mobile number is missing</item>
+        <item>Mobile number is not registered with the given farm code</item>
+        <item>User name is missing</item>
+        <item>OTP is missing</item>
+        <item>OTP sent successfully to your registered mobile number</item>
+        <item>OtpSMS</item>
+        <item>[OTP_VALUE]</item>
+        <item>paging</item>
+        <item>Password is missing</item>
+        <item>Password saved successfully</item>
+        <item>Push notification message missing</item>
+        <item>Push notification title missing</item>
+        <item>Push token is empty</item>
+        <item>Push token key added</item>
+        <item>Push token key is missing</item>
+        <item>Record Deleted Successfully</item>
+        <item>No record found</item>
+        <item>Region inactive</item>
+        <item>Region missing</item>
+        <item>Value</item>
+        <item>Repository category missing</item>
+        <item>Repository Id missing</item>
+        <item>Role empty</item>
+        <item>Role is missing</item>
+        <item>Role type empty</item>
+        <item>The request has been declined for security reasons</item>
+        <item>Support category missing</item>
+        <item>Support inactive</item>
+        <item>Support response saved successfully</item>
+        <item>To date is empty</item>
+        <item>Unauthorised</item>
+        <item>UploadedMedias</item>
+        <item>User code already exist</item>
+        <item>User code is missing</item>
+        <item>user dont have permission to access this.</item>
+        <item>User missing</item>
+        <item>User not found</item>
+        <item>Email send succesfully</item>
+        <item>Email send failed</item>
+        <item>Activity Response Saved Successfully</item>
+        <item>Notification send failed</item>
+        <item>Activity Response Saved Successfully</item>
+        <item>Activity Created Successfully</item>
+        <item>Repository Saved Successfully</item>
+        <item>Repository Media deleted Successfully</item>
+        <item>User Saved Successfully</item>
+        <item>Repository Inactive</item>
+        <item>Repository Category Saved Success</item>
+        <item>Repository Category name already exist</item>
+        <item>Activity Category name already exist</item>
+        <item>Activity Category saved successfully</item>
+        <item>Activity Category Missing</item>
+        <item>Branch Id Missing</item>
+        <item>Id Missing</item>
+        <item>Chick Detail NotFound</item>
+        <item>Feed Detail NotFound</item>
+        <item>Medicine Detail NotFound</item>
+        <item>HatchDate Missing</item>
+        <item>BatchMaster NotFound</item>
+        <item>Feedback Category Missing</item>
+        <item>Ledger Id Missing</item>
+        <item>Region Id Missing</item>
+        <item>Division Missing</item>
+        <item>Branch Name Missing</item>
+        <item>FromMonth Missing</item>
+        <item>ToMonth Missing</item>
+        <item>Broiler Branch Not Found</item>
+        <item>Season Not Found</item>
+        <item>Region Name Missing</item>
+        <item>Region Code Missing</item>
+        <item>LatitudeMissing</item>
+        <item>LongitudeMissing</item>
+        <item>Latitude Not Valid Format</item>
+        <item>Longitude Not Valid Format</item>
+        <item>Region Code Already Exists</item>
+        <item>Region Added Successfull</item>
+        <item>Region Updated Successfully</item>
+        <item>BranchCode is Missing</item>
+        <item>FarmNameVillage is Missing</item>
+        <item>AddressLine1 is Missing</item>
+        <item>AddressLine2 is Missing</item>
+        <item>Village is Missing</item>
+        <item>TownCity is Missing</item>
+        <item>Taluk is Missing</item>
+        <item>District is Missing</item>
+        <item>State is Missing</item>
+        <item>Pincode is Missing</item>
+        <item>MobileNumber is Missing</item>
+        <item>RearingArea is Missing</item>
+        <item>WaterSource is Missing</item>
+        <item>Hardness is Missing</item>
+        <item>Ph is Missing</item>
+        <item>RoadFacility is Missing</item>
+        <item>FarmManagedBy is Missing</item>
+        <item>ShedType is Missing</item>
+        <item>RoofType is Missing</item>
+        <item>FloorType is Missing</item>
+        <item>ShedDirection is Missing</item>
+        <item>LightingSource is Missing</item>
+        <item>PipeLine is Missing</item>
+        <item>Broiler Farm Added Successfull</item>
+        <item>Broiler Farm Updated Successfull</item>
+        <item>Batch Added Successfull</item>
+        <item>Batch Updated Successfull</item>
+        <item>Batch AddOrUpdate Failed</item>
+        <item>Chick Detail Added Successfull</item>
+        <item>Chick Detail Updated Successfull</item>
+        <item>Chick Detail AddOrUpdate Failed</item>
+        <item>Feed Detail Added Successfull</item>
+        <item>Feed Detail Updated Successfull</item>
+        <item>Feed Detail AddOrUpdate Failed</item>
+        <item>Broiler Farm AddOrUpdate Failed</item>
+        <item>Region AddOrUpdate Failed</item>
+        <item> Medicine Detail Added Successfull</item>
+        <item>Medicine Detail Updated Successfull</item>
+        <item> Medicine Detail AddOrUpdate Failed</item>
+        <item> Broiler Branches Added Successfull</item>
+        <item>Broiler Branches Updated Successfull</item>
+        <item>Broiler Branches AddOrUpdate Failed</item>
+        <item>Season Added Successfull</item>
+        <item> Season Updated Successfull</item>
+        <item>Season AddOrUpdate Failed</item>
+        <item> Branch is Active</item>
+        <item>Support name already exist</item>
+        <item> Support Category saved success</item>
+        <item>Support Id missing</item>
+        <item>Question missing</item>
+        <item>Support question saved success</item>
+        <item>Support question id missing</item>
+        <item>Title Missing</item>
+        <item>Content Missing</item>
+        <item>Repository Content saved successfully</item>
+        <item>Activity Media deleted Successfully</item>
+    </string-array>
+
+</resources>

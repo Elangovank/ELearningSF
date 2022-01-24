@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chaoose_your_language">உங்கள் மொழியைத் தேர்வு செய்க</string>
+    <string name="submit">சமர்ப்பி</string>
+    <string name="language_updated">மொழி புதுப்பிக்கப்பட்டது</string>
+
+    <string name="app_name" translatable="false">Suguna</string>
+    <string name="activity">நடவடிக்கை</string>
+    <string name="repository">களஞ்சியம்</string>
+    <string name="report">அறிக்கை</string>
+    <string name="feedback">கருத்து</string>
+    <string name="support">பண்ணையாளருக்கு உதவி</string>
+   <!--<string name="add_item">ஊடகங்கள் பதிவேற்ற</string>
+    <string name="remove_item">அகற்று</string>
+    <string name="morph_item_radius" translatable="false">Morph Item Radius:</string>
+    <string name="morph_corner_radius" translatable="false">Morph Corner Radius:</string>
+    <string name="morph_vertical_offset" translatable="false">Morph Vertical Offset:</string>
+
+    <string name="title_activity_home">முகப்பு செயல்பாடு</string>
+    <string name="title_Feedback">கருத்து</string>
+    <string name="title_daily_report">தினசரி அறிக்கை</string>
+    <string name="label_language">மொழி</string>
+    <string name="label_download">பதிவிறக்கம்</string>
+    <string name="label_sign_out">வெளியேறு</string>
+    <string name="title_support">வாடிக்கையாளர் ஆதரவு	</string>
+
+    <string name="fliter">வடிகட்டி</string>
+    <string name="action_example">எடுத்துக்காட்டு நடவடிக்கை</string>
+    <string name="action_settings">அமைப்புகள்</string>
+    <string name="chick_age_format">நாள்</string>
+    <string name="chick_ages_format">நாட்கள்</string>
+    <string name="ok">சரி</string>
+    <string name="retry">மீண்டும் முயற்சி செய்</string>
+    <string name="cancel">ரத்து</string>
+    <string name="message_camera_permission">கேமரா அணுகலை இயக்கவும்</string>
+    <string name="error">பிழை</string>
+    <string name="label_choose">தேர்வு</string>
+    <string name="label_select_picture">படம் தேர்ந்தெடு</string>
+    <string name="login">உள் நுழை</string>
+    <string name="farm_code">பண்ணை குறியீடு</string>
+    <string name="farm_id">பண்ணை அடையாளம்</string>
+    <string name="send_otp">OTP அனுப்பவும்</string>
+    <string name="change_language">மொழியை மாற்ற</string>
+    <string name="otp">OTP</string>
+    <string name="password">கடவுச்சொல்</string>
+    <string name="pause">இடைநிறுத்தம்</string>
+    <string name="resume">தற்குறிப்பு</string>
+    <string name="resend_otp">OTP மீண்டும் அனுப்புக</string>
+    <string name="user_mobile_number">பயனர் மொபைல் எண்</string>
+    <string name="creatre_password">கடவுச்சொல்லை உருவாக்கு</string>
+    <string name="re_enter_password">கடவு சொல்லை திருப்பி உள்ளிடு</string>
+    <string name="submit">சமர்ப்பி</string>
+    <string name="password_creation">கடவுச்சொல் உருவாக்கம்</string>
+    <string name="validate_farm_code">பண்ணை குறியீட்டை சரிபார்க்கவும்</string>
+    <string name="chaoose_your_language">உங்கள் மொழியைத் தேர்வு செய்க</string>
+    <string name="forgot_password">கடவுச்சொல்லை மறந்துவிட்டீர்களா?</string>
+    <string name="message_login">உள்நுழைதல்...</string>
+    <string name="close">சுற்று மூடல்</string>
+    <string name="no_item_found">நிலுவையில் எதுவும் இல்லை</string>
+    <string name="no_questions_found">காட்ட கேள்விகள் எதுவும் இல்லை</string>
+    <string name="no_record_found">பதிவு எதுவும் இல்லை</string>
+    <string name="no_media_found">ஊடகங்கள் எதுவும் இல்லை</string>
+    <string name="pending">நிலுவையில்</string>
+    <string name="completed">நிறைவு</string>
+    <string name="loading">ஏற்றுதல் ...</string>
+    <string name="yes">ஆம்</string>
+    <string name="no">இல்லை</string>
+    <string name="no_its_correct">இல்லை அது தவறானது</string>
+    <string name="media">ஊடகம்</string>
+    <string name="delete">ஊடகங்கள் நீக்கு</string>
+    <string name="upload">பதிவேற்றம்</string>
+    <string name="record_video">காணொளி பதிவு</string>
+    <string name="capture_photo">புகைப்படத்தை எடு</string>
+    <string name="gallery">கூடம்</string>
+    <string name="media_recorder">ஊடகம் பதிவேற்ற</string>
+    <string name="record_audio">ஒலி பதிவுசெய்</string>
+    <string name="record_again">மீண்டும் பதிவுசெய்</string>
+    <string name="uplaod_content">ஊடகம் மூலம் உங்கள் வேலையைப் பதிவேற்றவும்</string>
+    <string name="reason">காரணம்</string>
+    <string name="label_next">அடுத்த</string>
+    <string name="chick_bird">குஞ்சு / பறவை</string>
+    <string name="support_center">ஆதரவு</string>
+    <string name="label_date">தேதி</string>
+    <string name="label_chick_age">குஞ்சு / பறவை வயது</string>
+    <string name="label_submit">சமர்ப்பி</string>
+    <string name="confirm_submission">உங்கள் சமர்ப்பிப்பை உறுதிப்படுத்தவா?</string>
+    <string name="label_confirm">உறுதிப்படுத்தவும்</string>
+    <string name="label_start">தொடக்கம்</string>
+    <string name="label_re_start">மறுதொடக்கம்</string>
+    <string name="comment">கருத்து</string>
+    <string name="select_image">படம்</string>
+    <string name="select_video">காணொளி</string>
+    <string name="select_audio">ஒலி</string>
+    <string name="select_files">கோப்புகளைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="feed_stock">தீவனம் கையிருப்பு</string>
+    <string name="reciept">தீவனம் வரவு</string>
+    <string name="feed_consumption">தீவனம் நுகர்வு</string>
+    <string name="feed_transfer">தீவனம் வெளியே</string>
+    <string name="open_bags">திறந்த பைகள்</string>
+    <string name="mortality">இறப்பு</string>
+    <string name="body_weight">உடல் எடை</string>
+    <string name="no_of_bags">பைகள் எண்ணிக்கை</string>
+    <string name="no_of_receipt">வரவு எண்ணிக்கை</string>
+    <string name="no_of_hen">கோழிகள் / பறவைகளின் எண்ணிக்கை</string>
+    <string name="activity">நடவடிக்கை</string>
+    <string name="repository">களஞ்சியம்</string>
+    <string name="report">அறிக்கை</string>
+    <string name="feedback">கருத்து</string>
+    <string name="support">ஆதரவு</string>
+    <string name="today_activity">இன்றைய செயல்பாடு</string>
+    <string name="video">காணொளி</string>
+    <string name="photos">புகைப்படங்கள்</string>
+    <string name="chick_type">குஞ்சு / பறவை</string>
+    <string name="feed">தீவனம்</string>
+    <string name="medicine">மருந்து</string>
+    <string name="antibiotics">நுண்ணுயிர் கொல்லிகள்</string>
+    <string name="title_repository">களஞ்சியம்</string>
+    <string name="title_activity">நடவடிக்கை</string>
+    <string name="feed_back_successfully">உங்கள் கருத்து வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது</string>
+    <string name="language_updated">மொழி புதுப்பிக்கப்பட்டது</string>
+    &lt;!&ndash; <string name="search_hint">மருந்து தொடர்பான பிரச்சினைகளை இங்கே தேடுங்கள்</string>&ndash;&gt;
+
+    <string name="search_hint">தேடுங்கள்</string>
+
+
+    <string name="feed_back_updated">உங்கள் தினசரி அறிக்கை வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது</string>
+    <string name="record_audio_error">தொடர ஒலி பதிவுசெய்க</string>
+    <string name="upload_error_message">பதிவேற்றுவதற்கு குறைந்த பட்சம் ஒரு பொருளை தேர்ந்தெடுக்கவும்</string>
+    <string name="missing_data">தகவல்கள் இல்லை</string>
+    <string name="invalid_user">தவறான பயனர்</string>
+    <string name="token_missing">அடையாளம் காணவில்லை</string>
+    <string name="enter_farm_code">பண்ணை குறியீட்டை உள்ளிடவும்</string>
+    <string name="enter_otp">OTP உள்ளிடவும்</string>
+    <string name="unsupported_track">ஆதரிக்கப்படாத வழி</string>
+    <string name="unread">படிக்காதது</string>
+    <string name="Notifications">அறிவிப்புகள்</string>
+    <string name="downloading">இறக்குகிறது ...</string>
+    <string name="age_days">குஞ்சு / பறவை வயது:</string>
+    <string name="filtered_date">வடிகட்டிய தேதி:</string>
+    <string name="or">( அல்லது )</string>
+    <string name="default_activity">இயல்புநிலை செயல்பாடு</string>
+    <string name="submittedSucessfully">வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது</string>
+    <string name="under_develop">வசதிகள் மேம்படுத்தப்படுகிறது</string>
+
+    <string name="label_all">அனைத்தும்</string>
+    <string name="label_open">திற</string>
+    <string name="label_resolved">தீர்க்கப்பட்டது</string>
+    <string name="media_uploded">நீங்கள் பதிவேற்றிய ஊடகங்கள்</string>
+    <string name="questions_raised">நீங்கள் எழுப்பிய கேள்விகள்</string>
+    <string name="solution">தீர்வு</string>
+    <string name="title_raised_request">எழுந்த கோரிக்கைகள்</string>
+    <string name="marketting">விற்றல்</string>
+    <string name="management">மேலாண்மை</string>
+    <string name="others">மற்றவை</string>
+    <string name="chick_days_error">தவறான குஞ்சு நாட்கள்</string>
+    <string name="sub_category">துணை வகை</string>
+    <string name="remember_me">என்னை நினைவில் கொள்ளுங்கள்</string>
+    <string name="activity_progresss">செயல்பாடு முன்னேற்றம்</string>
+    <string name="history">வரலாறு</string>
+    <string name="standard">தரநிலை</string>
+    <string name="special_activity">வேற்று நடவடிக்கை</string>
+    <string name="chick_days">குஞ்சு வயது</string>
+    <string name="regular_activity">வழக்கமான செயல்பாடு</string>
+    <string name="day_label">நாள் %s</string>
+    <string name="incomplete">முழுமையற்ற</string>
+    <string name="upload_media">புகைப்படம் / காணொளி / ஒலி பதிவேற்றவும்</string>
+    <string name="media_provided">இந்த செயல்பாட்டிற்கான ஊடகம் வழங்கப்பட்டது</string>
+    <string name="activity_status">செயல்பாட்டு நிலை</string>
+    <string name="error_server">உடன் இணைக்க முடியவில்லை</string>
+    <string name="document">ஆவணம்</string>
+
+    <string name="error_password_length_min">குறைந்தபட்சம்% s எழுத்துகள் இருக்க வேண்டும்</string>
+    <string name="error_password_length_max">% S க்கும் மேற்பட்ட எழுத்துக்குறிகள் இருக்கக்கூடாது</string>
+    <string name="warning">எச்சரிக்கை</string>
+    <string name="error_in_permission">அனுமதி மறுக்கப்பட்டது</string>
+    <string name="error_field_required">இந்த புலம் தேவை</string>
+    <string name="error_network_connection">இணைய இணைப்பை சரிபார்க்கவும்</string>
+    <string name="error_client_key_missing">Client key is missing</string>
+    <string name="error_password_mismatch">கடவுச்சொல் பொருந்தவில்லை</string>
+    <string name="error_daily_report">தினசரி அறிக்கையை நிரப்பவும்</string>
+    <string name="media_activity">இந்த செயல்பாட்டிற்கான ஊடகம் வழங்கப்பட்டது</string>
+
+
+    <string name="lable_days">days</string>
+
+    <string name="message_enter">பதில் சேர்க்கவும்</string>
+    <string name="message_upload_media">நீங்கள் 5 ஊடகங்களை மட்டுமே பதிவேற்ற முடியும்</string>
+    <string name="error_invalid">தவறானது</string>
+    <string name="rating">மதிப்பீடு</string>
+    <string name="day_range">Day</string>
+    <string name="answer">பதில்</string>
+    <string name="capture_problem">உங்கள் பிரச்சனை கைப்பற்றவும்</string>
+    <string name="message_submit_feedback">தங்களது கருத்துக்களை பதிவு செய்யவும்</string>
+    <string name="audio">ஒலி</string>
+    <string name="error_upload">பதிவேற்றம் தோல்வி அடைந்தது / மீண்டும் முயற்சி செய்யவும்
+</string>
+    <string name="new_feedback">புதிய கருத்து
+</string>
+    <string name="new_report">புதிய அறிக்கை</string>
+    <string name="lable_bags">முட்டைகள்</string>
+    <string name="lable_receipt">வரவுகள்</string>
+    <string name="lable_chickens">குஞ்சுகள்</string>
+    <string name="lable_gm">கிராம்</string>
+    <string name="updated_string">மேம்படுத்தப்பட்டது
+</string>
+    <string name="times">முறை  [மீண்டும் மீண்டும்]
+</string>
+    <string name="label_success">வெற்றி அடைந்தது
+</string>
+
+    <string name="messege_support_submit">விருப்பத்தை தேர்வு செய்க / குறிப்பை [கமெண்ட் ] பதிவு செய்க</string>
+    <string name="error_not_supported_video">"வீடியோ ஒத்துழைக்கவில்லை
+"
+.</string>
+    <string name="lable_offline">புதிய கருத்து
+</string>
+    <string name="in_kg">கிராம்</string>
+
+    <string name="trimming_message">முனைமழிப்பு
+...</string>
+    <string name="compressing_message">சுருக்குதல்...</string>
+    <string name="error_trimming">வீடியோவை முன்னோட்டமிடும்போது பிழை
+</string>
+    <string name="error_while_previewing_video">வீடியோவை முன்னோட்டமிடும்போது பிழை
+</string>
+
+    <string name="update_dialog_title" translatable="false">New update available!</string>
+    <string name="update_dialog_message" translatable="false">There is newer version of this application is available, click Update to upgrade now?</string>
+    <string name="skip" translatable="false">Skip</string>
+    <string name="update" translatable="false">Update</string>
+    <string name="force_update_dialog_message" translatable="false">Please, update the app to new version to continue.</string>
+    <string name="no_thanks" translatable="false">No Thanks</string>
+
+    <string name="alter_message" translatable="false">Are you sure want to delete the media</string>
+
+    &lt;!&ndash;Strings mofified on 19-06-2020&ndash;&gt;
+
+    <string name="label_estimated_arrival">தோராயமான வருகை</string>
+    <string name="label_item">பொருள்</string>
+    <string name="label_dispatched_qty">அனுப்பி வைக்கப்பட்ட அளவு</string>
+    <string name="title_material_arrival">பொருட்களின் வருகை</string>
+    <string name="next_material">அடுத்த பொருள்களின் வருகை</string>
+    <string name="next_check_arrival">அடுத்த குஞ்சுகளின் வருகை</string>
+    <string name="title_dispatch_status">அனுப்பும் நிலை</string>
+    <string name="label_in_transit">பயண வழியில்</string>
+    <string name="label_completed">நிறைவு</string>
+    <string name="label_items">பொருட்கள்</string>
+    <string name="dispatch_status">அனுப்பும் நிலை</string>
+    <string name="performance_report">செயல்திறன் அறிக்கை</string>
+    <string name="weather">வானிலை</string>
+    <string name="Chicks">குஞ்சுகள்</string>
+    <string name="lifted_quantity">ஏற்றப்பட்ட அளவு</string>
+    <string name="average_weight">சராசரி எடை</string>
+    <string name="feedintake">தீவன நுகர்வு</string>
+    <string name="mortality_count">இறப்பு எண்ணிக்கை</string>
+    <string name="mean_age">சராசரி வயது</string>
+    <string name="fcr">தீவன நுகர்வு விகிதம்</string>
+    <string name="day_gain">தினசரி ஆதாயம்</string>
+    <string name="request_id">அடையாளத்தைக் கோருங்கள்</string>
+    <string name="new_comment">புதிய கருத்துக்கள்</string>
+    <string name="attachements">இணைப்புகள்</string>
+    <string name="enter_comments">தயவு செய்து உங்கள் கருத்தை பதிவு செய்யவும்</string>
+    <string name="apply">விண்ணப்பிக்கவும்</string>
+    <string name="cancel_all">அனைத்தையும் ரத்துசெய்ய</string>
+    <string name="individual_charts">தனிப்பட்ட விளக்கப்படங்கள்</string>
+    <string name="comparison_charts">ஒப்பீட்டு விளக்கப்படங்கள்</string>
+    <string name="feed_intake">தீவன நுகர்வு</string>
+    <string name="shed_ready_activity_label">பண்ணை சுத்தம் செய்யும் செயல்பாடுகள்</string>
+
+
+    <string name="label_precipitation">மழைப்பொழிவு</string>
+    <string name="label_humidity">காற்றில் உள்ள ஈரப்பதம்</string>
+    <string name="label_wind">காற்று</string>
+    <string name="title_weather">வானிலை</string>
+    <string name="message_enter_comment">உங்கள் கருத்தை பதிவு செய்யவும்</string>
+    <string name="title_arrived_materials">வந்து சேர்ந்துள்ள பொருட்கள்</string>
+    <string name="feeds">தீவனம்</string>
+    <string name="arrived_qty">வந்து சேர்ந்துள்ள அளவு</string>
+    <string name="label_new_comparision">புதிய ஒப்பீடு</string>
+    <string name="parameter1">அளவு 1</string>
+    <string name="parameter2">அளவு 2</string>
+    <string name="message_selected_batches">பேட்ச் தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="message_selected_batch">பேட்ச் தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="selected_batches">தயவுசெய்து பேட்ச்ஜை தேர்ந்தெடுக்கவும்</string>
+    <string name="message_batch_selection">தயவுசெய்து ஏதாவது ஒரு பேட்ச்ஜை நீக்கவும்</string>
+
+
+    <string name="label_view_chart">விளக்கப்படத்தை முழு திரையில் காண்க</string>
+    <string name="label_standard">மதிப்பளவு</string>
+    <string name="kg">கிலோ கிராம்</string>
+    <string name="label_k">கிலோ</string>
+    <string name="grms">கிராம்</string>
+    <string name="message_arrival">வருகை அளவை பதிவிடவும்</string>
+
+    <string name="d_age">வயது நாட்களில்</string>
+    <string name="batch_selection">பேட்ச்  தேர்வு செய்தல்</string>
+    <string name="driver_no">ஓட்டுநரை அழைக்கவும்</string>
+    <string name="feed_transfer_in">தீவனம் உள்ளே</string>
+    <string name="title_farmer">பண்ணையாளருக்கு உதவி</string>
+    <string name="message_part1">எங்கள் மேற்பார்வையாளர் அல்லது கிளை மேலாளரைத் தொடர்பு கொள்ள  இந்த  அப்ளிகேஷன் மூலம் பதிவு செய்த பண்ணையாளர்களை அன்புடன் வரவேற்கிறோம்</string>
+    <string name="message_part2">இந்த அப்ளிகேஷனை எங்களிடம் பதிவு செய்து கொண்ட பண்ணையாளர்கள் மட்டுமே பயன்படுத்த முடியும்</string>
+    <string name="message_part3">சுகுணா நிறுவனத்தை தொடர்பு கொள்ள, தயவுசெய்து எங்கள் வாடிக்கையாளர் பராமரிப்பு எண்ணைத் தொடர்பு கொள்ளவும். 1800 103 43 43</string>
+    <string name="no_batch">எந்த தொகுதிகளும் கிடைக்கவில்லை</string>
+    <string name="choose">தேர்வு செய்யவும்</string>
+    <string name="version">புதிய பதிப்பு[வெர்ஷன்]</string>
+    <string name="label_g">கிராம்</string>
+    <string name="pm">பிற்பகல்</string>
+    <string name="am">முற்பகல்</string>
+
+    <string name="message_registered_farmer" translatable="false">இந்த அப்ளிகேஷனை எங்களிடம் பதிவு செய்து கொண்ட பண்ணையாளர்கள் மட்டுமே பயன்படுத்த முடியும்</string>
+    <string name="welcome_label" translatable="false">சுகுனாவுக்கு வருக</string>
+    <string name="label_registered" translatable="false">பதிவு செய்த பண்ணையாளர்கள்</string>
+    <string name="label_non_registered" translatable="false">பதிவு செய்யப்படாத பண்ணையாளர்கள்</string>
+    <string name="message_reg" translatable="false">எங்கள் மேற்பார்வையாளர் அல்லது கிளை மேலாளரைத் தொடர்பு கொள்ள  இந்த  அப்ளிகேஷன் மூலம் பதிவு செய்த பண்ணையாளர்களை அன்புடன் வரவேற்கிறோம்
+</string>
+    <string name="message_non_reg" translatable="false">சுகுணா நிறுவனத்தை தொடர்பு கொள்ள, தயவுசெய்து எங்கள் வாடிக்கையாளர் பராமரிப்பு எண்ணைத் தொடர்பு கொள்ளவும். 1800 103 43 43
+</string>-->
+
+    <!--Error List-->
+
+    <string-array name="error_list">
+        <item>DefaultString</item>
+        <item>ஐடி செயல்பாடு இல்லை</item>
+        <item>செயல்பாடு கிடைக்கவில்லை</item>
+        <item>செயல்பாடு பதில் காலியாக உள்ளது</item>
+        <item>பேட்ச் செயலற்று உள்ளது</item>
+        <item>கிளைகள் செயல்பாட்டில் இல்லை</item>
+        <item>கிளையன்ட் கி காலியாக இருக்க முடியாது</item>
+        <item>மின் அஞ்சல் முகவரி ஏற்கனவே உள்ளது</item>
+        <item>மின் அஞ்சல் முகவரி இல்லை</item>
+        <item>en</item>
+        <item>இன்டர்ணல் சர்வர் [உள் சேவையக] பிழை</item>
+        <item>பண்ணை எண் [பார்ம் கோட்] இல்லை</item>
+        <item>கோழிப்பண்ணை செயல்பாட்டில் இல்லை</item>
+        <item>கோழிப் பண்ணையை கண்டறிய முடியவில்லை</item>
+        <item>கோப்பு கிடைக்கவில்லை [பைல்ஸ்]</item>
+        <item>ஆரம்ப தேதி காலியாக உள்ளது</item>
+        <item>ஆரம்ப தேதி தவறானது</item>
+        <item>[HATCH_DATE]</item>
+        <item>செயலற்ற பயனர்</item>
+        <item>தவறான செயல்பாடு</item>
+        <item>தவறான கிளிஎன்ட் கி</item>
+        <item>தவறான கோரிக்கை</item>
+        <item>தவறான உள்நுழைவு சான்றுகள்</item>
+        <item>தவறான ஒரு முறை கடவுச்சொல் OTP</item>
+        <item>தவறான கோரிக்கை</item>
+        <item>அடுத்த நிலை ஒப்புதலுக்கு பயனர் பயனருக்கு அனுமதி இல்லை</item>
+        <item>தவறான பயனர்</item>
+        <item>மொழி இல்லை</item>
+        <item>வரி குறியீடு இல்லை</item>
+        <item>இட அமைவு [லொகேஷன்] இல்லை</item>
+        <item>Login base</item>
+        <item>மீடியா கிடைக்கவில்லை</item>
+        <item>மீடியா சேமிக்கப்பட்டது</item>
+        <item>மீடியா ஐடி[ID] இல்லை</item>
+        <item>கைபேசி [மொபைல்] எண் ஏற்கனவே உள்ளது</item>
+        <item>கைபேசி [மொபைல்] எண் இல்லை</item>
+        <item>கொடுக்கப்பட்ட பண்ணை எண்ணில் [பார்ம் கோட்] கைபேசி [மொபைல்] எண் பதிவு செய்யப்படவில்லை</item>
+        <item>பயன்படுத்துபவர் பெயர் இல்லை</item>
+        <item>ஒருமுறை கடவுச்சொல் OTP இல்லை</item>
+        <item>ஒருமுறை கடவுச்சொல் [OTP] உங்கள் பதிவு செய்யப்பட்ட கைப்பேசி [மொபைல்] எண்ணுக்கு வெற்றிகரமாக அனுப்பப்பட்டது
+OTP SMS "ஒருமுறை கடவுச்சொல்
+OTP செய்தி"</item>
+        <item>OtpSMS</item>
+        <item>[OTP_VALUE]</item>
+        <item>paging</item>
+        <item>கடவுச்சொல் இல்லை</item>
+        <item>கடவுச்சொல் வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>புஷ் அறிவிப்பு செய்தி இல்லை</item>
+        <item>புஷ் அறிவிப்பு தலைப்பு இல்லை</item>
+        <item>Push token is empty</item>
+        <item>Push token key added</item>
+        <item>புஷ் டோக்கன் கி காணவில்லை</item>
+        <item>பதிவு வெற்றிகரமாக நீக்கப்பட்டது</item>
+        <item>பதிவு எதுவும் இல்லை</item>
+        <item>பகுதி செயலற்றது</item>
+        <item>பகுதி இல்லை</item>
+        <item>மதிப்பு</item>
+        <item>தரவுத்தொகுப்பு வகை காணவில்லை</item>
+        <item>தரவுத்தொகுப்பு ஐடி ID இல்லை</item>
+        <item>பங்கு காலியாக உள்ளது</item>
+        <item>பங்கு இல்லை</item>
+        <item>பங்கு வகை காலியாக உள்ளது</item>
+        <item>பாதுகாப்பு காரணங்களுக்காக கோரிக்கை மறுக்கப்பட்டுள்ளது</item>
+        <item>ஆதரவு வகை இல்லை</item>
+        <item>ஆதரவு செயலற்றது</item>
+        <item>ஆதரவு பதில் வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>தேதி காலியாக உள்ளது</item>
+        <item>அங்கீகரிக்கப்படாதது</item>
+        <item>பதிவேற்றிய மீடியாக்கள்</item>
+        <item>பயனர் குறியீடு ஏற்கனவே உள்ளது</item>
+        <item>பயனர் குறியீடு இல்லை</item>
+        <item>இதை அணுக பயனருக்கு அனுமதி இல்லை.</item>
+        <item>பயனர் இல்லை</item>
+        <item>பயனர் கிடைக்கவில்லை</item>
+        <item>மின்னஞ்சல் வெற்றிகரமாக அனுப்பப்பட்டது</item>
+        <item>அனுப்பிய மின்னஞ்சல் தோல்வியுற்றது</item>
+        <item>செயல்பாட்டு பதில் வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>அனுப்பிய அறிவிப்புகள் தோல்வியுற்றது</item>
+        <item>செயல்பாட்டு பதில் வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>செயல்பாடு வெற்றிகரமாக உருவாக்கப்பட்டது</item>
+        <item>தரவுத்தொகுப்பு வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>தரவுத்தொகுப்பு மீடியா வெற்றிகரமாக நீக்கப்பட்டது</item>
+        <item>பயனர் வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>தரவுத்தொகுப்பு செயலற்றது</item>
+        <item>தரவுத்தொகுப்பு வகை காணவில்லை</item>
+        <item>தரவுத்தொகுப்பு ஐடி ID இல்லை</item>
+        <item>பங்கு காலியாக உள்ளது</item>
+        <item>பங்கு இல்லை</item>
+        <item>பங்கு வகை காலியாக உள்ளது</item>
+        <item>பாதுகாப்பு காரணங்களுக்காக கோரிக்கை மறுக்கப்பட்டுள்ளது</item>
+        <item>ஆதரவு வகை இல்லை</item>
+        <item>ஆதரவு செயலற்றது</item>
+        <item>ஆதரவு பதில் வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>தேதி காலியாக உள்ளது</item>
+        <item>அங்கீகரிக்கப்படாதது</item>
+        <item>பதிவேற்றிய மீடியாக்கள்</item>
+        <item>பயனர் குறியீடு ஏற்கனவே உள்ளது</item>
+        <item>பயனர் குறியீடு இல்லை</item>
+        <item>இதை அணுக பயனருக்கு அனுமதி இல்லை</item>
+        <item>பயனர் இல்லை</item>
+        <item>பயனர் கிடைக்கவில்லை</item>
+        <item>மின்னஞ்சல் வெற்றிகரமாக அனுப்பப்பட்டது</item>
+        <item>அனுப்பிய மின்னஞ்சல் தோல்வியுற்றது</item>
+        <item>செயல்பாட்டு பதில் வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>அனுப்பிய அறிவிப்புகள் தோல்வியுற்றது</item>
+        <item>செயல்பாட்டு பதில் வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>செயல்பாடு வெற்றிகரமாக உருவாக்கப்பட்டது</item>
+        <item>தரவுத்தொகுப்பு வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>தரவுத்தொகுப்பு மீடியா வெற்றிகரமாக நீக்கப்பட்டது</item>
+        <item>பயனர் வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>தரவுத்தொகுப்பு செயலற்றது</item>
+        <item>தரவுத்தொகுப்பு வகை வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>தரவுத்தொகுப்பு வகை பெயர் ஏற்கனவே உள்ளது</item>
+        <item>செயல்பாடு வகை பெயர் ஏற்கனவே உள்ளது</item>
+        <item>செயல்பாட்டு வகை வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>செயல்பாட்டு வகை காணவில்லை</item>
+        <item>கிளை ஐடி காணவில்லை</item>
+        <item>ஐடி காணவில்லை</item>
+        <item>குஞ்சுகளின் விவரம் கிடைக்கவில்லை</item>
+        <item>தீவனங்கள் விவரம் கிடைக்கவில்லை</item>
+        <item>மருந்துகள் விவரம் கிடைக்கவில்லை</item>
+        <item>பொறித்த தேதி இல்லை</item>
+        <item>தொகுதி மாஸ்டர் கிடைக்கவில்லை</item>
+        <item>கருத்துக்களின் வகைகள் இல்லை </item>
+        <item>லெட்ஜர் ஐடி காணவில்லை</item>
+        <item>பிராந்திய ஐடி காணவில்லை</item>
+        <item>பிரிவு காணவில்லை</item>
+        <item>கிளைபெயர் காணவில்லை</item>
+        <item>ஆரம்பிக்கும் மாதம் காணவில்லை</item>
+        <item>முடிவுபெறும் மாதம் காணவில்லை</item>
+        <item>பிராய்லர் கிளை கிடைக்கவில்லை</item>
+        <item>பருவம் / சீசன்  கிடைக்கவில்லை</item>
+        <item>பிராந்திய பெயர் காணவில்லை </item>
+        <item>பிராந்திய குறியீடு காணவில்லை</item>
+        <item>அட்சரேகை காணவில்லை</item>
+        <item>தீர்க்கரேகை காணவில்லை</item>
+        <item>அட்சரேகை செல்லுபடியாகாத வடிவத்தில் உள்ளது</item>
+        <item>தீர்க்க ரேகை செல்லுபடியாகாத வடிவத்தில் உள்ளது</item>
+        <item>பிராந்திய குறியீடு ஏற்கனவே உள்ளது</item>
+        <item>பிராந்தியம் வெற்றிகரமாக சேர்க்கப்பட்டது</item>
+        <item>பிராந்தியம் வெற்றிகரமாக புதுப்பிக்கப்பட்டது</item>
+        <item>கிளை அலுவலக குறியீடு இல்லை</item>
+        <item>பண்ணை பெயர் கிராமம் இல்லை </item>
+        <item>முகவரி வரி 1 இல்லை</item>
+        <item>முகவரி வரி 2 இல்லை</item>
+        <item>கிராமம் காணவில்லை</item>
+        <item>டவுன் அல்லது சிட்டி காணவில்லை</item>
+        <item>தாலுகா காணவில்லை</item>
+        <item>மாவட்டம் காணவில்லை</item>
+        <item>மாநிலம் காணவில்லை</item>
+        <item>பின்கோட் காணவில்லை</item>
+        <item>கைப்பேசி எண் இல்லை</item>
+        <item>வளர்ப்பு பகுதி காணவில்லை</item>
+        <item>WaterSource is Missing</item>
+        <item>கடினத்தன்மை காணவில்லை</item>
+        <item>கார அமிலத்தன்மை பி எச் அளவு காணப்படவில்லை</item>
+        <item>சாலை வசதி இல்லை</item>
+        <item>கோழிப் பண்ணையை நிர்வகித்துவரும் நபரின் விவரம் இல்லை</item>
+        <item>கொட்டகை வகை இல்லை</item>
+        <item>கூரை வகை இல்லை</item>
+        <item>கொட்டகையில் தரைதளம் பற்றிய விவரம் இல்லை</item>
+        <item>கோழிப்பண்ணையில் திசை குறித்த விபரங்கள் இல்லை </item>
+        <item>கோழிப்பண்ணையில் வெளிச்சத்தை தரும் லைட்டிங் விபரங்கள் இல்லை</item>
+        <item>கோழிப்பண்ணையில் குடிநீர் குழாய் குறித்த தகவல்கள் இல்லை</item>
+        <item>பிராய்லர் கோழி பண்ணை வெற்றிகரமாக சேர்க்கப்பட்டது</item>
+        <item>கோழிப்பண்ணை வெற்றிகரமாக மேம்படுத்தப்பட்டது</item>
+        <item>பேட்ச் வெற்றிகரமாக சேர்க்கப்பட்டது</item>
+        <item>பேட்ச் வெற்றிகரமாக புதுப்பிக்கப்பட்டது</item>
+        <item>தொகுதி சேர் அல்லது புதுப்பித்தல் தோல்வியுற்றது</item>
+        <item>குஞ்சு விவரம் வெற்றிகரமாக சேர்க்கப்பட்டது</item>
+        <item>கோழிக்குஞ்சுகள் விபரம் குறித்த தகவல்கள் புதுப்பிக்கப்பட்டது</item>
+        <item>கோழிக்குஞ்சுகள் விவரம் சேர் அல்லது புதுப்பித்தல் தோல்வியுற்றது</item>
+        <item>தீவனமுட்டைகள் விபரங்கள் பதிவு தோல்வியடைந்தது</item>
+        <item>கோழிப்பண்ணை விபரங்கள் பதிவு தோல்வியடைந்தது</item>
+        <item>பிராந்தியம் சேர் அல்லது புதுப்பித்தல் தோல்வியுற்றது</item>
+        <item>Broiler Farm AddOrUpdate Failed</item>
+        <item>பிராந்தியம் சேர் அல்லது புதுப்பித்தல் தோல்வியுற்றது</item>
+        <item>மருத்துவ விவரம் வெற்றிகரமாக சேர்க்கப்பட்டது</item>
+        <item>மருத்துவ விவரம் வெற்றிகரமாக புதுப்பிக்கப்பட்டது</item>
+        <item> மருத்துவ விவரம் சேர்க்க அல்லது புதுப்பித்தல் தோல்வியுற்றது</item>
+        <item>பிராய்லர் கிளைகள் வெற்றிகரமாக சேர்க்கப்பட்டன</item>
+        <item>பிராய்லர் கிளைகள் வெற்றிகரமாக புதுப்பிக்கப்பட்டன</item>
+        <item>பிராய்லர் கிளைகள் சேர்க்க அல்லது புதுப்பித்தல் தோல்வியுற்றது</item>
+        <item>பருவம்[சீசன்] குறித்த விபரங்கள் மேம்படுத்தப்பட்டது</item>
+        <item>அதே பண்ணை எண்ணில் ஃபார்ம்கோடு உள்நுழைந்த  மற்றொரு கைப்பேசி சாதனம்</item>
+        <item>பருவம்[சீசன்] சேர் அல்லது புதுப்பித்தல் தோல்வியுற்றது</item>
+        <item>கிளை செயலில் உள்ளது</item>
+        <item>ஆதரவு பெயர் ஏற்கனவே உள்ளது</item>
+        <item>ஆதரவு வகை வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>சப்போட் ஐடிஐ காணவில்லை</item>
+        <item>எந்த கேள்வியும் இல்லை</item>
+        <item>ஆதரவு கேள்வி வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>ஆதரிக்கப்பட்ட வினவல் அடையாள எண் காணவில்லை</item>
+        <item>தலைப்பு இல்லை</item>
+        <item>உள்ளடக்கம் காணவில்லை</item>
+        <item>களஞ்சிய உள்ளடக்கம் வெற்றிகரமாக சேமிக்கப்பட்டது</item>
+        <item>Activity Media deleted Successfully</item>
+    </string-array>
+
+</resources>

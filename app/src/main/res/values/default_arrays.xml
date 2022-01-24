@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options_image">
+        <item>Gallery</item>
+        <item>Camera</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>English </item>
+        <item>தமிழ் (Tamil) </item>
+        <item>বাঙালি (Bengali) </item>
+        <item>ગુજરાતી (Gujarati) </item>
+        <item>ಕನ್ನಡ (Kannada) </item>
+        <item>मराठी (Marathi) </item>
+        <item>हिंदी (Hindi) </item>
+        <item>తెలుగు (Telugu) </item>
+    </string-array>
+
+    <string-array name="historyDetails">
+        <item>All</item>
+        <item>Completed</item>
+        <item>Incomplete</item>
+    </string-array>
+
+    <integer-array  name="colour">
+        <item>@color/seek_color</item>
+        <item>@color/body_weight_color</item>
+        <item>@color/black</item>
+    </integer-array>
+
+
+    <integer-array name="splash_animation_width">
+        <item>300</item>
+        <item>650</item>
+        <item>1050</item>
+    </integer-array>
+
+
+  <!--  <string-array name="navigationMenuLabel">
+        <item>@string/label_language</item>
+        <item>@string/title_farmer</item>
+        <item>@string/label_download</item>
+        <item>@string/title_material_arrival</item>
+        <item>@string/performance_report</item>
+        <item>@string/weather</item>
+        <item>@string/label_sign_out</item>
+    </string-array>-->
+
+
+
+    <string-array name="navigationMenuIcon">
+        <item>@drawable/ic_language</item>
+        <item>@drawable/ic_customer_support</item>
+        <item>@drawable/ic_download</item>
+        <item>@drawable/ic_dispatch_statues</item>
+        <item>@drawable/ic_performancereport</item>
+        <item>@drawable/ic_weather</item>
+        <item>@drawable/ic_signout</item>
+    </string-array>
+
+
+
+    <string-array name="weatherIcon">
+        <item>@drawable/ic_1_medium</item>
+        <item>@drawable/ic_2_medium</item>
+        <item>@drawable/ic_3_medium</item>
+        <item>@drawable/ic_4_medium</item>
+        <item>@drawable/ic_5_medium</item>
+        <item>@drawable/ic_6_medium</item>
+        <item>@drawable/ic_7_medium</item>
+
+    </string-array>
+
+
+<!--    <string-array name="supportList">
+        <item>@string/chick_bird</item>
+        <item>@string/feed_stock</item>
+        <item>@string/medicine</item>
+        <item>@string/marketting</item>
+        <item>@string/management</item>
+        <item>@string/others</item>
+    </string-array>-->
+
+
+    <string-array name="supportCategory">
+        <item>@drawable/ic_language</item>
+        <item>@drawable/ic_chick_bird_support</item>
+        <item>@drawable/ic_feed_support</item>
+        <item>@drawable/ic_medicine_support</item>
+        <item>@drawable/ic_marketing_support</item>
+        <item>@drawable/ic_management__support</item>
+        <item>@drawable/ic_others_small</item>
+    </string-array>
+
+
+    <!--<string-array name="feedback_tamil">
+        <item>@string/chick_bird</item>
+        <item>@string/feed</item>
+        <item>@string/medicine</item>
+        <item>@string/title_farmer</item>
+    </string-array>
+
+    <string-array name="performance">
+        <item>@string/choose</item>
+        <item>@string/body_weight</item>
+        <item>@string/day_gain</item>
+        <item>@string/feed_intake</item>
+        <item>@string/mortality</item>
+
+    </string-array>-->
+
+    <!--    var bodyWeight = 1
+        var dayGain = 2
+        var feedintake = 3
+        var mortality = 4-->
+
+
+    <string-array name="feedBackRatingList">
+        <item>@drawable/ic_chick_bird_feedback</item>
+        <item>@drawable/ic_feed_feedback</item>
+        <item>@drawable/ic_medicine_feedback</item>
+        <item>@drawable/ic_support_center_feedback</item>
+    </string-array>
+
+
+    <!--Error List-->
+
+    <string-array name="error_list1">
+        <item>DefaultString</item>
+        <item>Activity Id Missing</item>
+        <item>Activity not found</item>
+        <item>Activity Response Text Empty</item>
+        <item>Batch inactive</item>
+        <item>Branch missing</item>
+        <item>Client key cant be empty</item>
+        <item>Email address already exist</item>
+        <item>Email address is missing</item>
+        <item>en</item>
+        <item>Internal Server Error</item>
+        <item>Farm code is missing</item>
+        <item>Farm inactive</item>
+        <item>Farm not found</item>
+        <item>File not found</item>
+        <item>From date is empty</item>
+        <item>Invalid from date</item>
+        <item>[HATCH_DATE]</item>
+        <item>Inactive user</item>
+        <item>Invalid Activity</item>
+        <item>Invalid client key</item>
+        <item>Invalid request. Hatch date is [HATCH_DATE]</item>
+        <item>Invalid login credential</item>
+        <item>Invalid OTP number</item>
+        <item>Invalid Request</item>
+        <item>User not found to assign for next level of approval</item>
+        <item>Invalid User</item>
+        <item>Language Missing</item>
+        <item>Line Code missing</item>
+        <item>Location Missing</item>
+        <item>Media Not Found</item>
+        <item>Media saved successfully</item>
+        <item>Media Type Id Missing</item>
+        <item>Mobile number already exist</item>
+        <item>Mobile number is missing</item>
+        <item>Mobile number is not registered with the given farm code</item>
+        <item>User name is missing</item>
+        <item>OTP is missing</item>
+        <item>OTP sent successfully to your registered mobile number</item>
+        <item>OtpSMS</item>
+        <item>[OTP_VALUE]</item>
+        <item>Password is missing</item>
+        <item>Password saved successfully</item>
+        <item>Push notification message missing</item>
+        <item>Push notification title missing</item>
+        <item>Push token is empty</item>
+        <item>Push token key added</item>
+        <item>Push token key is missing</item>
+        <item>Record Deleted Successfully</item>
+        <item>No record found</item>
+        <item>Region inactive</item>
+        <item>Region missing</item>
+        <item>Value</item>
+        <item>Repository category missing</item>
+        <item>Repository Id missing</item>
+        <item>Role empty</item>
+        <item>Role is missing</item>
+        <item>Role type empty</item>
+        <item>The request has been declined for security reasons</item>
+        <item>Support category missing</item>
+        <item>Support inactive</item>
+        <item>Support response saved successfully</item>
+        <item>To date is empty</item>
+        <item>Unauthorised</item>
+        <item>UploadedMedias</item>
+        <item>User code already exist</item>
+        <item>User code is missing</item>
+        <item>user dont have permission to access this.</item>
+        <item>User missing</item>
+        <item>User not found</item>
+        <item>Email send succesfully</item>
+        <item>Email send failed</item>
+        <item>Activity Response Saved Successfully</item>
+        <item>Notification send failed</item>
+        <item>Activity Response Saved Successfully</item>
+        <item>Activity Created Successfully</item>
+        <item>Repository Saved Successfully</item>
+        <item>Repository Media deleted Successfully</item>
+        <item>User Saved Successfully</item>
+        <item>Repository Inactive</item>
+        <item>Repository Category Saved Success</item>
+        <item>Repository Category name already exist</item>
+        <item>Activity Category name already exist</item>
+        <item>Activity Category saved successfully</item>
+        <item>Activity Category Missing</item>
+        <item>Branch Id Missing</item>
+        <item>Id Missing</item>
+        <item>Chick Detail NotFound</item>
+        <item>Feed Detail NotFound</item>
+        <item>Medicine Detail NotFound</item>
+        <item>HatchDate Missing</item>
+        <item>BatchMaster NotFound</item>
+        <item>Feedback Category Missing</item>
+        <item>Ledger Id Missing</item>
+        <item>Region Id Missing</item>
+        <item>Division Missing</item>
+        <item>Branch Name Missing</item>
+        <item>FromMonth Missing</item>
+        <item>ToMonth Missing</item>
+        <item>Broiler Branch Not Found</item>
+        <item>Season Not Found</item>
+        <item>Region Name Missing</item>
+        <item>Region Code Missing</item>
+        <item>LatitudeMissing</item>
+        <item>LongitudeMissing</item>
+        <item>Latitude Not Valid Format</item>
+        <item>Longitude Not Valid Format</item>
+        <item>Region Code Already Exists</item>
+        <item>Region Added Successfull</item>
+        <item>Region Updated Successfully</item>
+        <item>BranchCode is Missing</item>
+        <item>FarmNameVillage is Missing</item>
+        <item>AddressLine1 is Missing</item>
+        <item>AddressLine2 is Missing</item>
+        <item>Village is Missing</item>
+        <item>TownCity is Missing</item>
+        <item>Taluk is Missing</item>
+        <item>District is Missing</item>
+        <item>State is Missing</item>
+        <item>Pincode is Missing</item>
+        <item>MobileNumber is Missing</item>
+        <item>RearingArea is Missing</item>
+        <item>WaterSource is Missing</item>
+        <item>Hardness is Missing</item>
+        <item>Ph is Missing</item>
+        <item>RoadFacility is Missing</item>
+        <item>FarmManagedBy is Missing</item>
+        <item>ShedType is Missing</item>
+        <item>RoofType is Missing</item>
+        <item>FloorType is Missing</item>
+        <item>ShedDirection is Missing</item>
+        <item>LightingSource is Missing</item>
+        <item>PipeLine is Missing</item>
+        <item>Broiler Farm Added Successfull</item>
+        <item>Broiler Farm Updated Successfull</item>
+        <item>Batch Added Successfull</item>
+        <item>Batch Updated Successfull</item>
+        <item>Batch AddOrUpdate Failed</item>
+        <item>Chick Detail Added Successfull</item>
+        <item>Chick Detail Updated Successfull</item>
+        <item>Chick Detail AddOrUpdate Failed</item>
+        <item>Feed Detail AddOrUpdate Failed</item>
+        <item>Broiler Farm AddOrUpdate Failed</item>
+        <item>Region AddOrUpdate Failed</item>
+        <item> Medicine Detail Added Successfull</item>
+        <item>Medicine Detail Updated Successfull</item>
+        <item> Medicine Detail AddOrUpdate Failed</item>
+        <item> Broiler Branches Added Successfull</item>
+        <item>Broiler Branches Updated Successfull</item>
+        <item>Broiler Branches AddOrUpdate Failed</item>
+        <item>Season Added Successfull</item>
+        <item> Season Updated Successfull</item>
+        <item>Another device logged in with same farmcode</item>
+        <item>Season Added Successfull</item>
+        <item>Season Updated Successfull</item>
+        <item>Season AddOrUpdate Failed</item>
+        <item> Branch is Active</item>
+        <item>Support name already exist</item>
+        <item> Support Category saved success</item>
+        <item>Support Id missing</item>
+        <item>Question missing</item>
+        <item>Support question saved success</item>
+        <item>Support question id missing</item>
+        <item>Title Missing</item>
+        <item>Content Missing</item>
+        <item>Repository Content saved successfully</item>
+        <item>Activity Media deleted Successfully</item>
+        <item>User Update Successfully</item>
+        <item>Activity Sync Success</item>
+        <item>Activity Sync Failed</item>
+        <item>Regional Language Successfully Updated</item>
+        <item>Regional Language Updated Failed</item>
+        <item>Support Ticket saved success</item>
+        <item>Support Ticket closed success</item>
+        <item>Support Ticket assigned success</item>
+        <item>Another device logged in with same farmcode</item>
+    </string-array>
+
+</resources>

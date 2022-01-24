@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <string name="base_url" translatable="false">http://223.30.13.104:8118/</string>-->
+    <string name="base_url" translatable="false">http://223.30.13.104:8118/</string>
+
+
+    <string name="api" translatable="false">api/</string>
+    <string name="validate_farm" translatable="false">authorize/farmer/register</string>
+    <string name="otp_url" translatable="false">authorize/farmer/otp/send</string>
+    <string name="validate_url" translatable="false">authenticate/validate</string>
+    <string name="verify_otp" translatable="false">authorize/farmer/otp/verify</string>
+    <string name="language_list" translatable="false">user/language/list</string>
+    <string name="authorize_url" translatable="false">authorize/farmer/login</string>
+    <string name="authorize_logout_url" translatable="false">authorize/farmer/logout</string>
+    <string name="save_password_url" translatable="false">authorize/farmer/password/save</string>
+    <string name="list_of_pending_activities_url" translatable="false">activity/list/pending</string>
+    <string name="list_of_completed_activities_url" translatable="false">Activity/list/all</string>
+    <string name="history_pending" translatable="false">Activity/list/histroy/pending</string>
+    <string name="history_completed" translatable="false">Activity/list/histroy/completed</string>
+    <string name="media_upload" translatable="false">media/upload/activity</string>
+    <string name="repository_list" translatable="false">repository/list</string>
+    <string name="feedback_details" translatable="false">dailyreport/today</string>
+    <string name="feedback_save" translatable="false">dailyreport/save</string>
+    <string name="feedback_rating_save" translatable="false">feedback/rating/save</string>
+    <string name="repository_status_update" translatable="false">repository/status/update</string>
+    <string name="repository_detail" translatable="false">repository/detail</string>
+    <string name="activity_response_text" translatable="false">activity/detail</string>>
+    <string name="activity_response_save" translatable="false">activity/response/save</string>
+    <string name="activity_progress" translatable="false">activity/progress</string>
+    <string name="server_time" translatable="false">user/getservertime</string>
+    <!--support-->
+    <string name="support_list" translatable="false">support/list</string>
+    <string name="user_language_save" translatable="false">user/language/save</string>
+    <string name="support_question_list" translatable="false">support/question/list</string>
+    <string name="support_question_submit_list" translatable="false">support/question/response</string>
+    <string name="support_media_upload" translatable="false">support/response/save</string>
+    <string name="support_comment" translatable="false">support/text/save</string>
+    <string name="notification_list" translatable="false">notification/list</string>
+    <string name="notification_status_update" translatable="false">notification/status/update</string>
+    <string name="support_detail" translatable="false">support/category/count</string>
+    <string name="user_pushtokenkey_add" translatable="false">user/pushtokenkey/add</string>
+    <string name="repository_categories" translatable="false">repository/categories</string>
+
+
+    <!--support-ticket-->
+    <string name="support_ticket" translatable="false">supporttickets/save/media</string>
+    <string name="create_support" translatable="false">supporttickets/create</string>
+    <string name="list_questions" translatable="false">supporttickets/farmers/list</string>
+    <string name="support_raise_request_details" translatable="false">supporttickets/get</string>
+    <string name="add_comment_url" translatable="false">SupportTickets/add/comments</string>
+
+    <!--feedback-->
+    <string name="feedback_questions" translatable="false">feedback/question/getall</string>
+    <string name="feedback_save_media" translatable="false">feedback/rating/save</string>
+    <string name="feedback_upload_media" translatable="false">feedback/save/media</string>
+    <string name="report_history" translatable="false">dailyreport/history</string>
+    <string name="feedback_history" translatable="false">feedback/history</string>
+
+
+    <!--Material arraivals-->
+    <string name="today_material_arrival_list" translatable="false">PerformanceReport/TodayMaterialArrivalList</string>
+    <string name="material_history_list" translatable="false">PerformanceReport/MaterialArrivalHistoryList</string>
+    <string name="today_material_arrival_update" translatable="false">PerformanceReport/MaterialArrivalCustomerUpdate</string>
+    <string name="history_details" translatable="false">PerformanceReport/MaterialArrivalHistoryDetail</string>
+
+
+    <!--chart details-->
+    <string name="performance_chart_details" translatable="false">PerformanceReport/ChartPerformanceDetails</string>
+    <string name="performance_chart_detais_url" translatable="false">performancereport/BatchCharts</string>
+
+
+    <string name="get_activity_by_id" translatable="false">Activity/id</string>
+
+
+    <!--Change the Resource file to Language file-->
+    <string name="language_key" translatable="false">MobileConfig/resource?languageCode=</string>
+    <string name="daily_report_reason" translatable="false">MobileConfig/get/dailyreport</string>
+
+
+</resources>

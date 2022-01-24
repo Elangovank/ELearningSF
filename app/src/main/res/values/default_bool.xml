@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="visible">true</bool>
+    <bool name="invisible">false</bool>
+</resources>

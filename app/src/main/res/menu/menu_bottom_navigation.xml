@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/activity"
+            android:icon="@drawable/ic_activity"
+            android:title="@string/activity" />
+        <item
+            android:id="@+id/repository"
+            android:icon="@drawable/ic_repository"
+            android:title="@string/repository" />
+
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/ic_report"
+            android:title="@string/report"/>
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback_2"
+            android:title="@string/feedback" />
+
+        <item
+            android:id="@+id/support"
+            android:icon="@drawable/ic_support"
+            android:title="@string/support" />
+    </group>
+</menu>

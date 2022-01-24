@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="?attr/actionBarSize"
+            android:background="@color/white" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transperent"
+            android:layout_alignParentBottom="true">
+        <com.gm.controllers.MorphBottomNavigationView
+            android:id="@+id/bottomNavigation"
+            app:labelVisibilityMode="unlabeled"
+            app:itemBackground="@color/transperent"
+            app:itemIconTint="@color/transperent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/design_bottom_navigation_height"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintCircleRadius="@dimen/constraint_circle_radius"
+            app:menu="@menu/menu_bottom_navigation"
+            app:morphCornerRadius="@dimen/morph_corner_radius"
+            app:morphItemRadius="@dimen/morph_item_radius"
+            app:morphVerticalOffset="@dimen/morph_vertical_offset" >
+                 <LinearLayout
+                   android:id="@+id/bottomNavigationLinearLayout"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                     android:background="@color/transperent"
+                     android:layout_gravity="bottom"
+                   android:orientation="horizontal">
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="bottom"
+                       android:layout_margin="@dimen/margin_small"
+                       android:layout_weight="1"
+                       android:orientation="vertical">
+
+                       <ImageView
+                           android:id="@+id/bottomImageView1"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_activity_selected" />
+
+                       <TextView
+                           android:id="@+id/bottomTextView1"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+
+                           android:gravity="center"
+                           android:textColor="@color/white"
+                           android:textSize="8sp" />
+
+                       <TextView
+                           android:id="@+id/bottomDot1"
+                           android:layout_width="5dp"
+                           android:layout_height="5dp"
+                           android:layout_marginTop="@dimen/margin_very_small"
+                           android:layout_gravity="center"
+                           android:background="@drawable/bottom_bar_dot_circle" />
+
+                   </LinearLayout>
+
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="bottom"
+                       android:layout_margin="@dimen/margin_small"
+                       android:layout_weight="1"
+                       android:orientation="vertical">
+
+                       <ImageView
+                           android:id="@+id/bottomImageView2"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_activity_selected" />
+
+                       <TextView
+                           android:id="@+id/bottomTextView2"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center"
+
+                           android:textColor="@color/white"
+                           android:textSize="8sp" />
+
+                       <TextView
+                           android:id="@+id/bottomDot2"
+                           android:layout_width="5dp"
+                           android:layout_height="5dp"
+                           android:layout_marginTop="@dimen/margin_very_small"
+                           android:layout_gravity="center"
+                           android:background="@drawable/bottom_bar_dot_circle"/>
+
+                   </LinearLayout>
+
+
+                   <LinearLayout
+
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="bottom"
+                       android:layout_margin="@dimen/margin_small"
+                       android:layout_weight="1"
+                       android:orientation="vertical">
+
+                       <ImageView
+                           android:id="@+id/bottomImageView3"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_activity_selected" />
+
+                       <TextView
+                           android:id="@+id/bottomTextView3"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center"
+
+                           android:textColor="@color/white"
+                           android:textSize="8sp" />
+
+                       <TextView
+                           android:id="@+id/bottomDot3"
+                           android:layout_width="5dp"
+                           android:layout_height="5dp"
+                           android:layout_marginTop="@dimen/margin_very_small"
+                           android:layout_gravity="center"
+                           android:background="@drawable/bottom_bar_dot_circle" />
+
+                   </LinearLayout>
+
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="bottom"
+                       android:layout_margin="@dimen/margin_small"
+                       android:layout_weight="1"
+                       android:orientation="vertical">
+
+                       <ImageView
+                           android:id="@+id/bottomImageView4"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_activity_selected" />
+
+                       <TextView
+                           android:id="@+id/bottomTextView4"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center"
+                           android:textColor="@color/white"
+                           android:textSize="8sp" />
+
+                       <TextView
+                           android:id="@+id/bottomDot4"
+                           android:layout_width="5dp"
+                           android:layout_height="5dp"
+                           android:layout_marginTop="@dimen/margin_very_small"
+                           android:layout_gravity="center"
+                           android:background="@drawable/bottom_bar_dot_circle" />
+
+                   </LinearLayout>
+
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="bottom"
+                       android:layout_margin="@dimen/margin_small"
+                       android:layout_weight="1"
+                       android:orientation="vertical">
+
+                       <ImageView
+                           android:id="@+id/bottomImageView5"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_activity_selected" />
+
+                       <TextView
+                           android:id="@+id/bottomTextView5"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center"
+                           android:textColor="@color/white"
+                           android:textSize="8sp" />
+
+                       <TextView
+                           android:id="@+id/bottomDot5"
+                           android:layout_width="5dp"
+                           android:layout_height="5dp"
+                           android:layout_marginTop="@dimen/margin_very_small"
+                           android:layout_gravity="center"
+                           android:background="@drawable/bottom_bar_dot_circle" />
+
+                   </LinearLayout>
+               </LinearLayout>
+        </com.gm.controllers.MorphBottomNavigationView>
+
+
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

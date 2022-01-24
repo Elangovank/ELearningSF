@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Base_Match_Wrap"
+    android:background="@color/white"
+    android:fontFamily="@font/worksans_regular"
+    android:gravity="start"
+    android:maxLines="1"
+    android:paddingLeft="10dp"
+    android:paddingTop="18dp"
+    android:paddingBottom="18dp"
+    android:textColor="@color/gradient_one"
+    android:textSize="@dimen/font_size_small"
+    tools:text="Spinner" />

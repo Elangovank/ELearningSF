@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <RelativeLayout
+        style="@style/Base_Match">
+
+        <TextView
+            android:id="@+id/changeLanguage"
+            style="@style/Base_Wrap"
+            android:layout_below="@+id/loginMainContainer"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_medium" />
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            style="@style/Base_Wrap"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/login_logo" />
+
+
+        <LinearLayout
+            android:id="@+id/loginText"
+            style="@style/Base_Wrap"
+            android:layout_below="@+id/logoImageView"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/welcomeTextView"
+                style="@style/Base_Wrap"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:textColor="@color/white_shade_2"
+                android:textSize="@dimen/font_size_large" />
+
+            <TextView
+                android:id="@+id/messageTextView"
+                style="@style/Base_Wrap"
+                android:layout_marginTop="@dimen/margin_large"
+                android:fontFamily="@font/opensans_semibold"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:visibility="gone"
+                android:gravity="center"
+                android:textColor="@color/white_shade_2"
+                android:textSize="@dimen/font_size_small" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/loginMainContainer"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_below="@+id/loginText"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:background="@drawable/login_bg">
+
+            <LinearLayout
+                style="@style/Base_Match"
+
+                android:layout_marginTop="@dimen/margin_xx_large"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/registerMessageTextView"
+                    style="@style/Base_Wrap"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:gravity="center"
+                    android:layout_marginStart="@dimen/margin_large"
+                    android:textColor="@color/day_range"
+                    android:textAlignment="viewStart"
+                    android:layout_marginEnd="@dimen/margin_small"
+
+                    android:textSize="@dimen/font_size_small"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:id="@+id/registerLabelTextView"
+                    style="@style/Base_Wrap"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:textColor="@color/text_color"
+                    android:layout_marginLeft="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_x_large"
+
+                    android:textSize="@dimen/font_size_medium"
+                    />
+                <TextView
+                    android:id="@+id/registerDetailTextView"
+                    style="@style/Base_Wrap"
+                    android:fontFamily="@font/opensans_regular"
+                    android:layout_marginLeft="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:textAlignment="viewStart"
+                    android:textSize="@dimen/font_size_small"
+                    android:maxLines="3"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/nonRegisterLabelTextView"
+                    style="@style/Base_Wrap"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:textColor="@color/text_color"
+                    android:layout_marginLeft="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_x_large"
+
+                    android:textSize="@dimen/font_size_medium"
+                    />
+                <TextView
+                    android:id="@+id/nonRegisterDetailTextView"
+                    style="@style/Base_Wrap"
+                    android:fontFamily="@font/opensans_regular"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="@dimen/margin_large"
+                    android:textSize="@dimen/font_size_small"
+                    android:maxLines="3"
+
+                    />
+
+
+
+
+                <LinearLayout
+                    style="@style/Base_Match_Wrap"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    android:background="@drawable/linearlayout_background"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_x_large">
+
+                    <EditText
+                        android:id="@+id/farmerCodeEditText"
+                        style="@style/Base_Match_Wrap"
+                        android:drawableLeft="@drawable/ic_userid"
+                        android:drawablePadding="@dimen/padding_medium"
+                        android:drawableTint="@color/text_color"
+                        android:fontFamily="@font/worksans_regular"
+                        android:inputType="textCapCharacters"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/padding_medium"
+                        android:textSize="@dimen/font_size_small" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Base_Match_Wrap"
+                        android:background="@color/white"
+                        app:hintEnabled="false"
+                        app:passwordToggleEnabled="true">
+
+                        <EditText
+                            android:id="@+id/otpEditText"
+                            style="@style/Base_Match_Wrap"
+                            android:layout_marginTop="@dimen/margin_xx_large"
+                            android:drawableStart="@drawable/ic_password"
+                            android:drawablePadding="@dimen/padding_medium"
+                            android:drawableTint="@color/text_color"
+                            android:fontFamily="@font/worksans_regular"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:paddingLeft="@dimen/padding_medium"
+                            android:textSize="@dimen/font_size_small"
+                            android:visibility="gone" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <LinearLayout
+                        android:id="@+id/remembermeLayout"
+                        style="@style/Base_Match_Wrap"
+                        android:layout_gravity="end"
+                        android:gravity="end"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/ischecked"
+                            style="@style/Base_Wrap"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/unchecking_square" />
+
+                        <ImageView
+                            android:id="@+id/checked"
+                            style="@style/Base_Wrap"
+                            android:layout_gravity="center"
+                            android:src="@drawable/checking_square"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/rememberTextView"
+                            style="@style/Base_Wrap"
+                            android:layout_margin="@dimen/margin_medium"/>
+
+                    </LinearLayout>
+
+
+                        <com.gmcoreui.controllers.ui.GMButton
+                            android:id="@+id/submitButton"
+                            style="@style/Base_Match_Wrap"
+                            android:layout_marginTop="@dimen/margin_medium"
+                            android:background="@drawable/button_background"
+                            android:padding="@dimen/margin_medium"
+
+                            android:paddingBottom="@dimen/margin_medium"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_size_small" />
+                    </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+   </ScrollView>
+</FrameLayout>

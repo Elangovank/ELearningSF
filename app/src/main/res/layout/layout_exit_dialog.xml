@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="500dp"
+    android:layout_width="300dp"
+    android:layout_gravity="center"
+    android:background="@drawable/alart_bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/alertTitle1"
+            style="@style/Base_Wrap"
+            android:layout_marginTop="@dimen/margin_large"
+            android:fontFamily="@font/worksans_semibold"
+            android:text="Error"
+            android:textColor="@color/red_shade_1"
+            android:textSize="@dimen/font_size_x_large" />
+
+        <TextView
+            android:id="@+id/alertMessage1"
+            style="@style/Base_Wrap"
+            android:text="Are You sure?"
+            android:fontFamily="@font/worksans_regular"
+            android:textColor="@color/text_gray_light_shade1"
+            android:textSize="@dimen/font_size_medium" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/Base_Wrap"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+    <Button
+       android:id="@+id/cancelButton"
+        style="@style/AlertDialogButton"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/worksans_medium"
+        android:layout_marginRight="@dimen/margin_xxx_large"
+
+        android:layout_marginBottom="@dimen/margin_large"
+        android:text="cancel" />
+
+    <Button
+        android:id="@+id/alertOk1"
+        style="@style/AlertDialogButton"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/worksans_medium"
+
+        android:layout_marginBottom="@dimen/margin_large"
+        android:text="ok" />
+    </LinearLayout>
+</RelativeLayout>

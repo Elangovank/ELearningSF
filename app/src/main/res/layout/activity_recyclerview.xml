@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Base_Match"
+    android:orientation="vertical">
+
+    <include layout="@layout/appbar_normal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/headerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/weatherTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/padding_small"
+                android:drawableTop="@drawable/ic_close_small" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_toEndOf="@+id/weatherTextView"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/activityProgress"
+                    style="@style/Base_Wrap"
+                    android:layout_marginStart="@dimen/margin_large"
+                    android:fontFamily="@font/worksans_regular"
+
+                    android:textSize="@dimen/font_size_very_small" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/margin_upper_medium"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginRight="@dimen/margin_upper_medium">
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center"
+                        android:progressDrawable="@drawable/item_curve_progress"
+                        tools:progress="40" />
+
+                    <TextView
+                        android:id="@+id/percentageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_upper_medium"
+                        android:fontFamily="@font/worksans_medium"
+                        android:gravity="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_size_very_small"
+                        tools:text="40%" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/weatherTextView"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:background="@color/text_gray" />
+
+        </RelativeLayout>
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeContainer"
+            style="@style/Base_Match"
+            android:layout_below="@+id/headerLayout">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/activitiesNestedScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerView"
+                        style="@style/Base_Match_Wrap"
+                        android:layout_margin="@dimen/margin_small"
+                        android:background="@color/transperent"
+                        android:clipToPadding="false"
+                        android:fadeScrollbars="false"
+                        android:scrollbarFadeDuration="0"
+                        android:scrollbarSize="@dimen/padding_very_small"
+                        android:scrollbarStyle="insideOverlay"
+                        android:scrollbars="vertical" />
+
+                    <include layout="@layout/layout_no_record" />
+
+                    <ProgressBar
+                        android:id="@+id/loadMoreProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        tools:visibility="visible" />
+
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

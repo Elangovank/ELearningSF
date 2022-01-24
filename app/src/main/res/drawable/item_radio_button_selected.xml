@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+
+        <shape android:shape="oval">
+            <stroke android:color="#66B937" android:width="3dp"/>
+            <!-- Set the same value for both width and height to get a circular shape -->
+            <size android:width="15dp" android:height="15dp"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/tabla_cuerpo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_margin="@dimen/margin_large">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/ageTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_shape"
+                android:fontFamily="@font/worksans_regular"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Age"
+                android:textColor="@color/day_range"
+                android:textSize="@dimen/font_size_very_small"
+
+                />
+
+            <TextView
+                android:id="@+id/birdStockTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_shape"
+
+                android:fontFamily="@font/worksans_regular"
+                android:padding="8dp"
+               android:gravity="center"
+                android:textColor="@color/day_range"
+                android:textSize="@dimen/font_size_very_small" />
+
+            <TextView
+                android:id="@+id/feedTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_shape"
+                android:fontFamily="@font/worksans_regular"
+                android:padding="8dp"
+                android:gravity="center"
+                android:text="Std feed Gms/Bird"
+                android:textColor="@color/day_range"
+                android:textSize="@dimen/font_size_very_small" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/ageValueTextView"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_shape_white_bg"
+                android:fontFamily="@font/worksans_regular"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="@color/day_range"
+                android:textSize="@dimen/font_size_small" />
+
+            <TextView
+                android:id="@+id/birdStockValueTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_shape_white_bg"
+                android:fontFamily="@font/worksans_regular"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="67"
+                android:textColor="@color/day_range"
+                android:textSize="@dimen/font_size_small" />
+
+            <TextView
+                android:id="@+id/feedValueTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_shape_white_bg"
+                android:fontFamily="@font/worksans_regular"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="90"
+                android:textColor="@color/day_range"
+                android:textSize="@dimen/font_size_small" />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>

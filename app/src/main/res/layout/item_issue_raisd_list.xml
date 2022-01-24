@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_medium"
+    app:cardCornerRadius="@dimen/margin_small"
+    app:contentPadding="@dimen/margin_very_small">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/subCatagoryId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/margin_upper_medium"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:gravity="center_vertical"
+                    tools:text="99"
+                    android:textColor="@color/activity_text"
+                    android:textSize="@dimen/font_size_small" />
+
+                <TextView
+                    android:id="@+id/requestIdTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/margin_upper_medium"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/gray_shade1"
+                    android:textSize="@dimen/font_size_ultra_small" />
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:layout_toRightOf="@id/icone"
+                android:background="@color/black_view" />
+
+
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:id="@+id/supportName"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:fontFamily="@font/opensans_regular"
+                   android:gravity="center_vertical"
+                   android:textAlignment="gravity"
+                   android:maxLines="2"
+                   android:ellipsize="end"
+                   android:textColor="@color/day_range"
+                   android:textSize="@dimen/font_size_small"
+                   tools:text="Mite control" />
+
+               <ImageView
+                   android:id="@+id/notificationIconImageView"
+                   android:src="@drawable/ic_new_update"
+                   android:layout_gravity="end"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:id="@+id/icone"
+                   android:layout_width="wrap_content"
+                   android:layout_height="26dp"
+                   android:layout_marginTop="@dimen/margin_small"
+                   android:drawableStart="@drawable/ic_management_small" />
+
+
+               <TextView
+                   android:id="@+id/supportNameTextView"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="@dimen/margin_medium"
+                   android:layout_marginTop="@dimen/margin_small"
+                   android:fontFamily="@font/opensans_regular"
+                   android:gravity="center_vertical"
+                   tools:text="Medicine"
+                   android:layout_weight="1"
+                   android:textAlignment="gravity"
+                   android:textColor="@color/gray_shade1"
+                   android:textSize="@dimen/font_size_small" />
+
+               <TextView
+                   android:id="@+id/date"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/margin_small"
+                   android:fontFamily="@font/worksans_regular"
+                   android:gravity="end"
+                   tools:text="21 May 1992"
+                   android:textColor="@color/text_gray_light"
+                   android:textSize="@dimen/font_size_small"
+                   />
+
+           </LinearLayout>
+
+
+
+
+       </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

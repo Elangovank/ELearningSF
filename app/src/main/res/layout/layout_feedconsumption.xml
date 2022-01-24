@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        style="@style/Base_Wrap"
+        >
+        <ImageView
+            android:id="@+id/feedbackItemIcon"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_feedstock"
+            android:layout_marginEnd="@dimen/margin_large"/>
+    <TextView
+        style="@style/Base_Wrap"
+        android:textSize="@dimen/font_size_ultra_small"
+        android:fontFamily="@font/worksans_regular"
+        android:layout_marginStart="@dimen/alert_dialog_margin"
+        android:textColor="@color/gray_shade1"
+        />
+    </LinearLayout>
+
+    <com.gmcoreui.controllers.ui.GMSpinner
+        android:id="@+id/spinner"
+        style="@style/Base_Match"
+
+        android:clickable="true"
+        android:layout_marginStart="@dimen/margin_xxx_large"
+        android:gravity="start|center"
+        android:textColor="@color/text_gray_light"
+        android:textSize="@dimen/font_size_large" />
+
+</LinearLayout>

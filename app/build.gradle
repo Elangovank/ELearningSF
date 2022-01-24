@@ -1,0 +1,179 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.firebase.crashlytics'
+
+if (project.hasProperty("suguna.signing")) {
+    apply from: project.property("suguna.signing")
+}
+
+android {
+    compileSdkVersion 30
+    def apkNamePrefix = "SugunaFood"
+    def majorNumber = "1"
+    def minorNumber = "130"
+    def sprintNumber = "1"
+
+    defaultConfig {
+        applicationId "com.gm.suguna.farmer"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 11
+        versionName getVersionName(majorNumber, minorNumber)
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        android.applicationVariants.all { variant ->
+            variant.outputs.all {
+                def displayVersionName = versionName + "." + sprintNumber + "." + getBuildNumber()
+                def date = getDate()
+                def modifiedApkName = apkNamePrefix + "-" + displayVersionName + "-" + variant.flavorName + "-" + variant.buildType.name + "-" + date + ".apk"
+                outputFileName = modifiedApkName
+                def fullVersionName = versionName + "." + sprintNumber
+                buildConfigField("String", "displayVersionName", "\"" + displayVersionName + "\"")
+                buildConfigField("String", "fullVersionName", "\"" + fullVersionName + "\"")
+            }
+        }
+
+    }
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+
+    dexOptions {
+        jumboMode true
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        def CHARACTER = "Character"
+        def XPOSELEVEL = "exposeLevel"
+        debug {
+            buildConfigField(CHARACTER, XPOSELEVEL, "'x'")
+            signingConfig signingConfigs.debug
+            useProguard true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            buildConfigField(CHARACTER, XPOSELEVEL, "null")
+            signingConfig signingConfigs.release
+            shrinkResources true
+            minifyEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+def getVersionName(majorNumber, minorNumber) {
+    def computedVersionName = majorNumber + "." + minorNumber
+    println "Version name is set to $computedVersionName"
+    return computedVersionName
+}
+
+def getBuildNumber() {
+    def buildNumber = System.getenv("BUILD_NUMBER")
+    if (buildNumber == null) {
+        buildNumber = 1
+    }
+    println "Build number is set to $buildNumber"
+    return buildNumber
+}
+
+def getDate() {
+    def date = new Date()
+    def formattedDate = date.format('yyyyMMddHHmmss')
+    return formattedDate
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'core-3.1.1.2', ext: 'aar')
+    implementation(name: 'gmcore-3.1.1', ext: 'aar')
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+
+
+    implementation 'com.google.android.material:material:1.1.0-alpha02'
+
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha01'
+    //implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'  //Perfomance line chart
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha01'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha3'
+    implementation 'androidx.fragment:fragment:1.1.0-alpha03'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    androidTestImplementation 'androidx.test:rules:1.1.0-alpha3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha3'
+
+//    implementation "com.google.firebase:firebase-core:$firebase_version"Repor
+    implementation "com.google.firebase:firebase-config:19.0.3"
+    //Firebase Notification to support Azure Notification
+    implementation "com.google.firebase:firebase-messaging:20.3.0"
+    implementation "com.google.firebase:firebase-database:19.5.0"
+
+    //okhhtp3
+    implementation "com.squareup.okhttp3:logging-interceptor:$logging_interceptor_version"
+    implementation "com.squareup.okhttp3:okhttp:$okhttp_version"
+    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3'
+
+// Retrofit
+    implementation("com.squareup.retrofit2:retrofit:$retrofit_version") {
+        // exclude Retrofit’s OkHttp peer-dependency module and define your own module import
+        exclude module: 'okhttp'
+    }
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+// RxAndroid
+    implementation "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
+// Because RxAndroid releases are few and far between, it is recommended you also
+// explicitly depend on RxJava's latest version for bug fixes and new features.
+    implementation "io.reactivex.rxjava2:rxjava:$rxjava_version"
+
+    //Load Image URL
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+
+// Android DeviceNames
+    implementation "com.jaredrummler:android-device-names:$android_device_names_version"
+
+//    implementation 'com.google.firebase:firebase-messaging:17.0.0:15.0.0'
+    implementation 'com.yarolegovich:sliding-root-nav:1.1.0'
+    //Bottom navigation
+//    implementation 'com.tbuonomo:morph-bottom-navigation:1.0.1'
+
+    implementation 'androidx.core:core-ktx:1.1.0-alpha03'
+//Room Persistance
+    implementation "android.arch.persistence.room:runtime:$room_version"
+    // use kapt for Kotlin
+    kapt "android.arch.persistence.room:compiler:$room_version"
+//pdf viewer
+    implementation 'com.github.barteksc:android-pdf-viewer:2.6.1'
+    //Exo player
+    implementation 'com.google.android.exoplayer:exoplayer:2.8.2'
+
+    implementation 'com.github.ceryle:SegmentedButton:v2.0.2'
+    implementation 'com.googlecode.mp4parser:isoparser:1.0.2'
+
+    implementation 'com.github.lzyzsd:circleprogress:1.2.1'
+    // Crashlytics dependency
+    implementation 'com.google.firebase:firebase-crashlytics:17.3.0'
+    implementation 'com.google.firebase:firebase-analytics:18.0.0'
+
+    // for play encrypted video
+    implementation "cz.msebera.android:httpclient:4.4.1.2"
+
+    implementation "android.arch.lifecycle:livedata:1.1.1"
+
+}
+apply plugin: 'com.google.gms.google-services'

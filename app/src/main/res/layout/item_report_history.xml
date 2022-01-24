@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="@dimen/margin_medium"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/expandView"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@color/item_report_history">
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="3dp"
+            android:fontFamily="@font/worksans_medium"
+            android:gravity="center"
+            android:text="May, 12 2019"
+            android:textColor="@color/activity_text"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/arrowImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:src="@drawable/ic_expand" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/reportLayout"
+        android:layout_width="match_parent"
+        tools:visibility="visible"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/updateTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:fontFamily="@font/worksans_medium"
+            android:gravity="center"
+            android:textColor="@color/activity_text"
+            android:textSize="14dp"
+            tools:visibility="visible"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/historyRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"/>
+        <LinearLayout
+            style="@style/Base_Wrap"
+            android:id="@+id/feedConsumptionReasonLayout"
+            android:orientation="vertical"
+            >
+
+        <TextView
+            style="@style/Base_Wrap"
+            android:id="@+id/feedConsumptionReason"
+            android:text="Feed Consumption Reason "
+            android:textSize="@dimen/font_size_small"
+            android:fontFamily="@font/opensans_semibold"
+            />
+
+        <TextView
+            android:id="@+id/reasonTextView"
+            android:text="Feed stock"
+            android:fontFamily="@font/opensans_regular"
+            style="@style/Base_Wrap"
+            />
+        </LinearLayout>
+
+
+        <com.gmcoreui.controllers.ui.GMTextInputLayout
+                android:id="@+id/reasonGMTextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+
+            app:hintTextAppearance="@style/HintTextAppearance"
+            android:textColorHint="@color/text_gray">
+
+            <EditText
+                android:id="@+id/reasonHistoryEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusable="false"
+                android:fontFamily="@font/worksans_regular"
+                android:inputType="textMultiLine"
+                android:textColor="@color/text_gray"
+                tools:text="Text "
+                tools:visibility="visible"
+                android:textSize="@dimen/font_size_small"
+                android:visibility="gone" />
+
+        </com.gmcoreui.controllers.ui.GMTextInputLayout>
+
+        <TextView
+            android:id="@+id/mediaAdded"
+            style="@style/Base_Match_Wrap"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:fontFamily="@font/worksans_regular"
+            android:textSize="@dimen/font_size_small"
+
+            />
+
+        <include
+            android:id="@+id/mediaList"
+            layout="@layout/item_media_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium" />
+
+
+    </LinearLayout>
+</LinearLayout>

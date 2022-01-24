@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/Base_Match_Wrap"
+        android:orientation="vertical">
+
+        <com.gmcoreui.controllers.ui.GMLinearLayout
+            style="@style/Base_Match_Wrap"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_weight="0.8"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/padding_small">
+
+            <ImageView
+                android:id="@+id/confimationStartImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_large"
+                android:layout_marginBottom="@dimen/margin_large"
+                android:src="@drawable/ic_chick_confirmation_start"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/confimationEndImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_large"
+                android:layout_marginBottom="@dimen/margin_large"
+                android:src="@drawable/ic_chick_confirmation_end"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/confirmationMsgTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:layout_marginBottom="@dimen/margin_xx_large"
+                android:fontFamily="@font/worksans_regular"
+                android:gravity="center"
+                android:maxLines="3"
+                android:textSize="@dimen/font_size_large" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_x_large"
+                android:layout_marginBottom="@dimen/margin_x_large"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cancelTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_marginEnd="@dimen/margin_large"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:fontFamily="@font/worksans_semibold"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/padding_large"
+                    android:paddingBottom="@dimen/padding_large"
+                    android:textColor="@color/gradient_one"
+                    android:textSize="@dimen/font_size_small" />
+
+                <TextView
+                    android:id="@+id/confirmTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_marginEnd="@dimen/margin_large"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/padding_large"
+                    android:paddingBottom="@dimen/padding_large"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_small" />
+
+            </LinearLayout>
+
+        </com.gmcoreui.controllers.ui.GMLinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

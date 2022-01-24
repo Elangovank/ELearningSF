@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/recordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/total_bg"
+                android:background="@color/green_shade_1"
+                android:contentDescription="TODO" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/margin_xxx_large"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/HourTextView"
+                    android:layout_width="wrap_content"
+                    android:text="00"
+                    android:fontFamily="@font/worksans_semibold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_3x_large"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/HourView"
+                    android:layout_width="wrap_content"
+                    android:text="H"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/worksans_semibold"
+                    android:textSize="@dimen/font_size_large"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/MinuteTextView"
+                    android:layout_width="wrap_content"
+                    android:text="00"
+                    android:fontFamily="@font/worksans_semibold"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:textSize="@dimen/font_size_3x_large"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/MinuteView"
+                    android:layout_width="wrap_content"
+                    android:text="M"
+                    android:fontFamily="@font/worksans_semibold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_large"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/SecondsTextView"
+                    android:layout_width="wrap_content"
+                    android:text="00"
+                    android:fontFamily="@font/worksans_semibold"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:textSize="@dimen/font_size_3x_large"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/SecondView"
+                    android:layout_width="wrap_content"
+                    android:text="S"
+                    android:fontFamily="@font/worksans_semibold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_large"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <Chronometer
+                android:id="@+id/chronometer1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/margin_xxx_large"
+                android:fontFamily="@font/worksans_semibold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_3x_large"
+                android:gravity="center"/>
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/startIamgeView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bt_start"/>
+            <TextView
+                android:id="@+id/startTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/font_size_medium"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center|bottom"
+                android:layout_marginBottom="@dimen/margin_xx_large"/>
+
+            <ImageView
+                android:id="@+id/reStartImageViw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bt_restart"
+                android:layout_gravity="end|bottom"
+                android:layout_marginRight="@dimen/margin_xx_large"
+                android:visibility="visible"
+                android:layout_marginBottom="@dimen/margin_x_large"/>
+            <TextView
+                android:id="@+id/restartTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_medium"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="end"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/padding_xx_large"
+                android:visibility="visible"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/recordCancelLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/recordCancelTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:background="@drawable/custom_button_white"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center"
+                android:paddingTop="@dimen/padding_large"
+                android:paddingBottom="@dimen/padding_large"
+                android:textColor="@color/gradient_one"
+                android:textSize="@dimen/font_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reStartLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_x_large"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/cancelTextView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_size"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_white"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/worksans_regular"
+                android:gravity="center"
+                android:paddingTop="@dimen/padding_large"
+                android:paddingBottom="@dimen/padding_large"
+                android:textColor="@color/gradient_one"
+                android:textSize="@dimen/font_size_small" />
+
+            <TextView
+                android:id="@+id/nextTextView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_size"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/worksans_regular"
+                android:gravity="center"
+                android:paddingTop="@dimen/padding_large"
+                android:paddingBottom="@dimen/padding_large"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_small" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/playLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg">
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:cardCornerRadius="@dimen/margin_medium"
+                android:layout_marginStart="@dimen/margin_xx_large"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="@dimen/margin_xx_large">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <FrameLayout
+                        android:id="@+id/imageFrameLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:background="@drawable/audio_bg">
+
+                        <LinearLayout
+                            android:id="@+id/audioPlayer"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <ImageView
+                                android:id="@+id/mp3Image"
+                                android:layout_width="match_parent"
+                                android:layout_height="110dp"
+                                android:layout_margin="@dimen/margin_medium"
+                                android:src="@drawable/ic_headphone" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_x_large"
+                                android:gravity="center|bottom"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:id="@+id/currentPositiontTextView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginStart="@dimen/margin_large"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="00:00"/>
+
+                                <SeekBar
+                                    android:id="@+id/seekBar"
+                                    android:layout_weight="2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/totalDurationTextView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/margin_small"
+                                    android:layout_marginEnd="@dimen/margin_large"
+                                    android:layout_gravity="center"
+                                    android:text="00:00"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_x_large"
+                                android:gravity="center|bottom"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/media_rew"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/margin_small"
+                                    android:onClick="rewind"
+                                    android:src="@android:drawable/ic_media_rew" />
+
+                                <ImageButton
+                                    android:id="@+id/media_pause"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/margin_small"
+                                    android:onClick="pause"
+                                    android:src="@android:drawable/ic_media_pause"
+                                    android:visibility="gone" />
+
+                                <ImageButton
+                                    android:id="@+id/media_play"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/margin_small"
+                                    android:onClick="play"
+                                    android:src="@android:drawable/ic_media_play" />
+
+                                <ImageButton
+                                    android:id="@+id/media_forward"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/margin_small"
+                                    android:onClick="forward"
+                                    android:src="@android:drawable/ic_media_ff" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/recordAgainTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:src="@drawable/bt_restart" />
+
+            <TextView
+                android:id="@+id/recordTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:fontFamily="@font/worksans_regular"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_size_small" />
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/uploadAudioTextView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_size"
+                android:layout_gravity="end"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:background="@drawable/button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/worksans_regular"
+                android:gravity="center"
+                android:paddingTop="@dimen/padding_large"
+                android:paddingBottom="@dimen/padding_large"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_small" />
+
+            <TextView
+                android:id="@+id/uploadAudioCancelTextView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_size"
+                android:layout_gravity="end"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:background="@drawable/custom_button_white"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/worksans_regular"
+                android:gravity="center"
+                android:paddingTop="@dimen/padding_large"
+                android:paddingBottom="@dimen/padding_large"
+                android:textColor="@color/gradient_one"
+                android:textSize="@dimen/font_size_small" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_marginBottom="@dimen/margin_large"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        style="@style/Base_Match_Wrap">
+
+        <ImageView
+            android:id="@+id/feedbackImageView"
+            android:foregroundGravity="center"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_chick_bird_feedback"
+            style="@style/Base_Wrap"
+           />
+
+        <TextView
+            android:id="@+id/starCountTextView"
+            style="@style/Base_Wrap"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_toRightOf="@+id/feedbackImageView"
+            android:fontFamily="@font/worksans_medium"
+            android:textColor="@color/day_range"
+            android:textSize="@dimen/font_size_large"
+            tools:text="5" />
+
+        <ImageView
+            style="@style/Base_Wrap"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_toRightOf="@+id/starCountTextView"
+            android:src="@drawable/star_selected"
+             />
+
+        <TextView
+            android:id="@+id/feedNameTextView"
+
+            style="@style/Base_Wrap"
+            android:layout_below="@+id/starCountTextView"
+            android:layout_toRightOf="@+id/feedbackImageView"
+            android:fontFamily="@font/worksans_regular"
+            android:textColor="@color/day_range"
+            android:textSize="@dimen/font_size_small"
+            tools:text="Chick/Bird" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_small"
+        android:id="@+id/questionListRecyclerView"
+        style="@style/Base_Match_Wrap" />
+
+
+</LinearLayout>

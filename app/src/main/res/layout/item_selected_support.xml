@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_medium">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_farmer"
+                android:id="@+id/userImageView"/>
+
+            <TextView
+                android:id="@+id/userNameLayout"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_height="wrap_content"
+                android:textColor="@color/activity_text"
+                android:layout_gravity="center"
+                android:fontFamily="@font/worksans_regular"
+                android:textSize="@dimen/font_size_small"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="ETS"/>
+
+            <TextView
+                android:id="@+id/timeLayout"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_gray_light"
+                android:layout_gravity="center"
+                android:fontFamily="@font/worksans_regular"
+                android:textSize="@dimen/font_size_very_small"
+                tools:text="1hr ago"/>
+
+        </LinearLayout>
+
+        <WebView
+            android:id="@+id/contentWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:fontFamily="@font/worksans_light"
+            android:textColor="@color/text_gray_light"
+            android:textSize="@dimen/font_size_very_small"
+          />
+
+        <include layout="@layout/item_media_list" />
+
+    </LinearLayout>
+
+</LinearLayout>

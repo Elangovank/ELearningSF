@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mediaLayouts"
+    style="@style/Base_Wrap"
+    android:layout_margin="@dimen/padding_small">
+
+
+    <FrameLayout
+        android:id="@+id/media_frame_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/mediaImageView"
+            android:layout_width="@dimen/margin_too_xxx_large"
+            android:layout_height="@dimen/margin_too_xxx_large"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/playImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/placeholder_video"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/selectImageView"
+            android:layout_width="@dimen/font_size_xx_large"
+            android:layout_height="@dimen/font_size_xx_large"
+            android:layout_gravity="right"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

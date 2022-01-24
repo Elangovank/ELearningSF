@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/app_bg"
+    android:layout_marginBottom="@dimen/margin_medium"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        style="@style/Base_Match_Wrap"
+        android:layout_margin="@dimen/margin_large"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/Base_Match_Wrap"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/feedbackCategoryImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_chick_bird_feedback" />
+
+            <TextView
+                android:id="@+id/feedbackCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/margin_large"
+                android:fontFamily="@font/worksans_medium"
+                android:gravity="center"
+                android:textColor="@color/day_range"
+                android:textSize="@dimen/font_size_small"
+                 />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rating"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/worksans_regular"
+            android:textColor="@color/day_range"
+            android:textSize="@dimen/font_size_very_small" />
+
+        <RatingBar
+            android:id="@+id/birdRatingBarLayout"
+            style="@style/feedbacRatingStyle"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:layout_height="match_parent"
+            android:numStars="5"
+            android:stepSize="1" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/feedbackQuestionRecyclerView"
+            style="@style/Base_Match_Wrap" />
+    </LinearLayout>
+
+</LinearLayout>

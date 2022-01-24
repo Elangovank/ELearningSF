@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="alert_dialog_margin">50dp</dimen>
+    <dimen name="font_size_2x_large">28sp</dimen>
+    <dimen name="font_size_3x_large">32sp</dimen>
+    <dimen name="font_size_4x_large">40sp</dimen>
+    <dimen name="font_size_large">18sp</dimen>
+    <dimen name="font_size_medium">16sp</dimen>
+    <dimen name="font_size_small">14sp</dimen>
+    <dimen name="font_size_tiny">6sp</dimen>
+    <dimen name="font_size_ultra_small">10sp</dimen>
+    <dimen name="font_size_ultra">11sp</dimen>
+    <dimen name="font_size_very_small">12sp</dimen>
+    <dimen name="font_size_x_large">20sp</dimen>
+    <dimen name="font_size_xx_large">24sp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_small_reverse">-4dp</dimen>
+    <dimen name="margin_upper_medium">12dp</dimen>
+    <dimen name="margin_very_small">2dp</dimen>
+    <dimen name="margin_ultra_small">1dp</dimen>
+    <dimen name="margin_x_large">20dp</dimen>
+    <dimen name="margin_xx_large">24dp</dimen>
+    <dimen name="margin_2x_large">28dp</dimen>
+    <dimen name="margin_xxx_large">48dp</dimen>
+    <dimen name="margin_too_xxx_large">58dp</dimen>
+    <dimen name="nav_divider_width">1dp</dimen>
+    <dimen name="nav_header_height">200dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_upper_medium">12dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_ultra_small">1dp</dimen>
+    <dimen name="padding_very_small">2dp</dimen>
+    <dimen name="padding_x_large">18dp</dimen>
+    <dimen name="padding_xx_large">36dp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+    <dimen name="media_view_height">64dp</dimen>
+    <dimen name="media_image_size">30dp</dimen>
+    <dimen name="media_alert_height">57dp</dimen>
+
+
+    <dimen name="padding_scrollbar_bottom">32dp</dimen>
+    <dimen name="media_recycle_height">80dp</dimen>
+    <dimen name="margin_repo_text_height">34dp</dimen>
+    <dimen name="card_height">82dp</dimen>
+    <dimen name="image_size">50dp</dimen>
+    <dimen name="image_small_size">30dp</dimen>
+    <dimen name="card_width_height">104dp</dimen>
+    <dimen name="layout_height">170dp</dimen>
+    <dimen name="repo_categories_height">116dp</dimen>
+    <dimen name="recycler_view_height">220dp</dimen>
+    <dimen name="loading_progress_image_size">80dp</dimen>
+    <dimen name="constraint_circle_radius">50dp</dimen>
+    <dimen name="morph_corner_radius">10dp</dimen>
+    <dimen name="morph_item_radius">38dp</dimen>
+    <dimen name="morph_vertical_offset">32dp</dimen>
+
+
+</resources>
